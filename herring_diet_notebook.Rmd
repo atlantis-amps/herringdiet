@@ -1,0 +1,68 @@
+---
+title: "Diet analysis of herring predation in Puget Sound"
+output: html_notebook
+---
+
+
+Load libraries
+```{r}
+source("libraries.R")
+source("herring_functions.R")
+```
+
+
+Check full diet data set for herring prey and move to herring diet folder
+
+```{r check data, echo=FALSE}
+
+data.files <- list.files(path="~/herringdiet/all_diet_data",pattern = "*.xlsx", full.names = TRUE)
+  
+herring.data <- lapply(data.files,get_herringdata) %>% 
+  bind_rows
+
+herring.predator <- herring.data %>% 
+  group_by(atlantis_pred_group) %>% 
+  summarise(tot_entries = n()) %>% 
+  arrange(desc(tot_entries))
+
+herring.predator.year <- herring.data %>% 
+  group_by(atlantis_pred_group, year) %>% 
+  summarise(tot_entries = n()) %>% 
+  arrange(desc(year,atlantis_pred_group,tot_entries))
+
+#selected groups are 
+pred.groups <- c("HSL","PIN","SAL","SB","FMM","CI","CO","CU","DOG","PIS","ROC","MRO","SMD","SP")
+
+herring.pubs <- herring.data %>%
+  filter(atlantis_pred_group %in% pred.groups) %>% 
+  distinct(file_name) %>% 
+  pull (file_name)
+
+dir.create("herring_data")
+file.copy(from=herring.pubs,to="/home/atlantis/herringdiet/herring_data/",recursive = FALSE, 
+          copy.mode = TRUE)
+
+ 
+```
+
+Check if original data sums to 1, part of the assessment of how original data were calculated. 
+
+```{r}
+
+data.path <- "/home/atlantis/herringdiet/herring_data/"
+file.list <- list.files(data.path,pattern = "*.*xlsx")
+
+data.summary <- lapply(file.list,check_herringdata, data.path)
+
+data.sums <- data.summary %>% 
+  bind_rows
+
+prop.sum.data <- data.sums %>% 
+  group_by(data,location,file_name,year,author,publication_yr) %>% 
+  mutate(sum_test=if_else(prop_sum == 100, "100",if_else(prop_sum<100, "<100", ">100") )) %>% 
+  ungroup %>% 
+  distinct(file_name,year,publication_yr,author,sum_test)
+
+write_csv(prop.sum.data,"summary_herring_data.csv")
+```
+

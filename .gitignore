@@ -37,3 +37,8 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Diet data in Excel
+all_diet_data/
+data_fix/
+herring_data/
