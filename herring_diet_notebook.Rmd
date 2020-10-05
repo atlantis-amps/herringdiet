@@ -5,21 +5,77 @@ output: html_notebook
 
 
 Load libraries
-```{r}
+```{r load libraries, include=FALSE}
 source("libraries.R")
-source("herring_functions.R")
+source("get_herringdata.R")
+source("clean_herringdata.R")
+source("make_map.R")
 ```
 
 
-Check full diet data set for herring prey and move to herring diet folder
+Check full diet data set for herring prey and move to herring diet folder, add full reference
 
-```{r check data, echo=FALSE}
+```{r check data, include=FALSE}
 
 data.files <- list.files(path="~/herringdiet/all_diet_data",pattern = "*.xlsx", full.names = TRUE)
-  
-herring.data <- lapply(data.files,get_herringdata) %>% 
-  bind_rows
 
+#Moves data files to herring data
+lapply(data.files,test_herring)
+
+
+
+```
+
+```{r}
+
+
+#used geocoding to get locations, but ended up going through each article to find the maps and find the corresponding coordinates
+# revised data files are in herring_data_rev
+
+# location.table <- lapply(sampling.locations,get_location) %>% 
+#   bind_rows
+# 
+# write_csv(location.table,"sampling_coordinates.csv")
+# # I reviewed this manually for missing data, and saved as "sampling_coordinates_rev.csv"
+# 
+# location.data <- read_csv("sampling_coordinates_rev.csv")
+# 
+# herring.loc.corr <- herring.clean.data %>% 
+#   filter(latitude==0) %>% 
+#   dplyr::select(-latitude,-longitude) %>% 
+#   left_join(location.data,by="location")
+# 
+# herring.loc.data <- herring.clean.data %>% 
+#   filter(!latitude==0) %>% 
+#   bind_rows(herring.loc.corr)
+
+herring.clean.data <- clean_herringdata(herring.data, diet.names="diet_file_list.csv", predator.list = "herring_predator_names.csv")
+
+sampling.locations <- herring.clean.data %>% 
+  filter(is.na(latitude) & is.na(longitude)) %>% 
+  distinct(location) %>% 
+  arrange(location) %>% 
+  pull(location)
+
+herring.clean.data %>% 
+  write_csv("herring_diet_data.csv")
+```
+
+
+
+Plot sampling points and map
+
+```{r}
+
+#https://boundingbox.klokantech.com/
+#-123.7904,47.0152,-121.9301,49.2511 Puget Sound
+
+make_map(shape.file= "USMaritimeLimitsNBoundaries.shp", file.name = "herring_map.png", scale.factor = 2, bar.position = "tl", max.long=-121.9, min.long=-124.5, min.lat=46, max.lat=50, herring.dietdata = "herring_diet_data.csv")
+
+```
+
+
+```{r}
 herring.predator <- herring.data %>% 
   group_by(atlantis_pred_group) %>% 
   summarise(tot_entries = n()) %>% 
@@ -30,20 +86,9 @@ herring.predator.year <- herring.data %>%
   summarise(tot_entries = n()) %>% 
   arrange(desc(year,atlantis_pred_group,tot_entries))
 
-#selected groups are 
-pred.groups <- c("HSL","PIN","SAL","SB","FMM","CI","CO","CU","DOG","PIS","ROC","MRO","SMD","SP")
 
-herring.pubs <- herring.data %>%
-  filter(atlantis_pred_group %in% pred.groups) %>% 
-  distinct(file_name) %>% 
-  pull (file_name)
-
-dir.create("herring_data")
-file.copy(from=herring.pubs,to="/home/atlantis/herringdiet/herring_data/",recursive = FALSE, 
-          copy.mode = TRUE)
-
- 
 ```
+
 
 Check if original data sums to 1, part of the assessment of how original data were calculated. 
 

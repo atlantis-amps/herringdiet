@@ -1,4 +1,9 @@
-#functions for herring data analysis
+#' @title Select diet files with Herring as prey
+#' @description  Read file and test if herring are prey
+#' @details INPUT: 1) diet data for Puget Sound
+#' @details OUTPUT: 1) Clean file
+#' @author Hem Nalini Morzaria-Luna, hmorzarialuna@gmail.com
+
 
 
 get_herringdata <- function(this.file){
