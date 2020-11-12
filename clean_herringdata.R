@@ -6,9 +6,9 @@
 
 
 
-clean_herringdata <- function(herring.data, diet.names, predator.list){
+clean_herringdata <- function(this.file, diet.names, predator.list){
   
-  print(head(herring.data))
+  print(this.file)
   
   print("Read list of references")  
   
@@ -23,32 +23,42 @@ clean_herringdata <- function(herring.data, diet.names, predator.list){
   
   print(head(predator.names))
   
+  this.file.name <- this.file %>% 
+    str_split("/") %>% 
+    unlist %>% 
+    .[6]
+  
+  this.data <- read_xlsx(this.file) %>% 
+    setNames(c("atlantis_pred_group","predator_stage","taxa_predator","predator","atlantis_prey_group",
+               "taxa_prey","prey","data","value","proportion","index","lat_d","lat_m","lat_s","lon_d",
+               "lon_m","lon_s","location","year","author","publication_yr","variable","predator_size",
+               "size_units","sample_source")) %>% 
+    filter(atlantis_prey_group =="HE") %>% 
+    mutate(file_name  = this.file.name, full_file_name = this.file) %>% 
+    mutate(lat_d= as.numeric(lat_d),lat_m= as.numeric(lat_m),lat_s= as.numeric(lat_s),
+           lon_d= as.numeric(lon_d),lon_m= as.numeric(lon_m),lon_s= as.numeric(lon_s)) %>% 
+    mutate(year = as.numeric(year), publication_yr = as.numeric(publication_yr)) %>% 
+    mutate(predator_size = as.numeric(predator_size))
+  
+  
   subset.names <- c("Chondrichthyes","Chordata","Cetacea","Mammalia")
-  subset.location <- c("Tomales Bay","Washington Coast","Willapa Bay","Moon Island","Grays Harbor")
   
   print("Clean data table")
   
-  herring.name.data <- herring.data %>% 
+  herring.data <- this.data %>% 
     left_join(predator.names, by="taxa_predator") %>% 
     dplyr::select(-taxa_predator,-predator) %>% 
     dplyr::rename(predator_name = new_name, predator_taxa = scientific_name) %>% 
-    filter(!predator_name %in% subset.names) %>%  # these appear to only be 14 data points  
-    mutate(full_file_name = file_name) %>% 
-    mutate(location=str_to_title(location)) %>% 
-    filter(!location %in% subset.location) %>% 
-    mutate(location=if_else(location=="Tatoosh Islan","Tatoosh Island",
-                            if_else(location=="Tooten","Totten Inlet",
-                                    if_else(location=="San Juan Island","San Juan Islands",
-                                            if_else(location=="Strait Of Juan De Fuca",  "Strait Of San Juan De Fuca", 
-                                                    if_else(location=="Hood Canal, South Puget Sound", "Hood Canal", 
-                                                            if_else(location=="Ne Vancouver Island","NE Vancouver Island",
-                                                                    if_else(location=="Padilla Bay, Washington","Padilla Bay", 
-                                                                            if_else(location=="Qc Island","QC Island",
-                                                                                    if_else(location=="Hammersley","Hammersley Inlet",
-                                                                                            if_else(location=="Eld","Eld Inlet",
-                                                                                            if_else(location=="Skookum","Skookum Inlet",location))))))))))))
-  #calculate decimal degrees and fix incorrect coordinates
-  herring.coord.data <- herring.name.data %>% 
+    filter(!predator_name %in% subset.names) %>% 
+    mutate(location=if_else(location=="southern British Columbia","Southern British Columbia",
+                            if_else(location=="South San Juan Channel","Southern San Juan Channel",
+                                    if_else(location=="inside Active Pass","Active Pass",
+                                            if_else(location=="Padilla Bay, Washington","Padilla Bay",
+                                                    if_else(location=="Protection island","Protection Island",location))))))
+  
+    
+    #calculate decimal degrees and fix incorrect coordinates
+  herring.coord.data <- herring.data %>% 
     mutate(lat_d = if_else(is.na(lat_d),0,lat_d)) %>%
     mutate(lat_m = if_else(is.na(lat_m),0,lat_m)) %>%
     mutate(lat_s = if_else(is.na(lat_s),0,lat_s)) %>%
@@ -61,30 +71,6 @@ clean_herringdata <- function(herring.data, diet.names, predator.list){
     mutate(longitude = if_else(longitude>1,longitude*-1,longitude)) %>% 
     mutate(latitude = if_else(latitude<1,latitude*-1,latitude))
   
-  
-  print("Save reference table")
-  
-  herring.coord.data %>% 
-    mutate(file_name=gsub(".xlsx","",file_name)) %>% 
-    mutate(file_name=gsub("/home/atlantis/herringdiet/all_diet_data/","",file_name)) %>% 
-    left_join(diet.file.names, by="file_name") %>% 
-    distinct(reference) %>% 
-    filter(!is.na(reference)) %>% 
-    write_csv("herring_references.csv")
-  
-  #using all predators
-  #selected groups are 
-  #pred.groups <- c("HSL","PIN","SAL","SB","FMM","CI","CO","CU","DOG","PIS","ROC","MRO","SMD","SP")
-  
-  herring.pubs <- herring.coord.data %>%
-    # filter(atlantis_pred_group %in% pred.groups) %>% 
-    distinct(full_file_name) %>% 
-    pull(full_file_name)
-  
-  dir.create("herring_data")
-  file.copy(from=herring.pubs,to="/home/atlantis/herringdiet/herring_data/",recursive = FALSE, 
-            copy.mode = TRUE)
-  
   return(herring.coord.data)
   
-}
+  }

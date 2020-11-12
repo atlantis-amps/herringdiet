@@ -7,7 +7,8 @@ output: html_notebook
 Load libraries
 ```{r load libraries, include=FALSE}
 source("libraries.R")
-source("get_herringdata.R")
+source("test_herring.R")
+source("test_herring_raw_data.R")
 source("clean_herringdata.R")
 source("make_map.R")
 ```
@@ -22,11 +23,15 @@ data.files <- list.files(path="~/herringdiet/all_diet_data",pattern = "*.xlsx", 
 #Moves data files to herring data
 lapply(data.files,test_herring)
 
+data.files.raw <- list.files(path="~/herringdiet/raw_diet_data",pattern = "*.csv", full.names = TRUE)
+
+#Moves data files to herring data
+lapply(data.files.raw,test_herring_raw_data)
 
 
 ```
 
-```{r}
+```{r clean herring data}
 
 
 #used geocoding to get locations, but ended up going through each article to find the maps and find the corresponding coordinates
@@ -49,13 +54,33 @@ lapply(data.files,test_herring)
 #   filter(!latitude==0) %>% 
 #   bind_rows(herring.loc.corr)
 
-herring.clean.data <- clean_herringdata(herring.data, diet.names="diet_file_list.csv", predator.list = "herring_predator_names.csv")
+data.folder <- "~/herringdiet/herring_data_rev"
 
-sampling.locations <- herring.clean.data %>% 
-  filter(is.na(latitude) & is.na(longitude)) %>% 
-  distinct(location) %>% 
+data.files <- list.files(path=data.folder,pattern = "*.xlsx", full.names = TRUE)
+
+herring.clean.data <- lapply(data.files, clean_herringdata, diet.names="diet_file_list.csv", predator.list = "herring_predator_names.csv") %>% 
+  bind_rows
+
+print("Save reference table")
+  
+  herring.clean.data %>% 
+    mutate(file_name=gsub(".xlsx","",file_name)) %>% 
+    mutate(file_name=gsub("/home/atlantis/herringdiet/all_diet_data/","",file_name)) %>% 
+    left_join(diet.file.names, by="file_name") %>% 
+    distinct(file_name, reference) %>% 
+   # filter(is.na(reference)) %>% 
+    write_csv("herring_references.csv")
+  
+  #using all predators
+  #selected groups are 
+  #pred.groups <- c("HSL","PIN","SAL","SB","FMM","CI","CO","CU","DOG","PIS","ROC","MRO","SMD","SP")
+  
+  
+herring.clean.data %>% 
+  filter(!is.na(latitude) & !is.na(longitude)) %>% 
+  distinct(location, latitude,longitude) %>% 
   arrange(location) %>% 
-  pull(location)
+  write_csv("herring_locations.csv")
 
 herring.clean.data %>% 
   write_csv("herring_diet_data.csv")
@@ -70,7 +95,17 @@ Plot sampling points and map
 #https://boundingbox.klokantech.com/
 #-123.7904,47.0152,-121.9301,49.2511 Puget Sound
 
-make_map(shape.file= "USMaritimeLimitsNBoundaries.shp", file.name = "herring_map.png", scale.factor = 2, bar.position = "tl", max.long=-121.9, min.long=-124.5, min.lat=46, max.lat=50, herring.dietdata = "herring_diet_data.csv")
+shape.file <- "USMaritimeLimitsNBoundaries.shp"
+file.name <- "herring_map.png"
+scale.factor <- 2 #map scale
+bar.position  <- "tl" #position scale bar
+max.long <- -121.9
+min.long <- -125
+min.lat <- 46
+max.lat <- 50
+herring.locations <-"herring_diet_data.csv"
+
+make_map(shape.file, file.name, scale.factor, bar.position, max.long, min.long, min.lat, max.lat, herring.locations)
 
 ```
 

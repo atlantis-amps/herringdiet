@@ -7,9 +7,10 @@
 #' @author Hem Nalini Morzaria-Luna, hmorzarialuna@gmail.com
 
 
-make_map <- function(shape.file, file.name,scale.factor, bar.position, min.long, max.long, min.lat, max.lat, location.table, herring.dietdata) {
+make_map <- function(shape.file, file.name,scale.factor, bar.position, min.long, max.long, min.lat, max.lat, herring.locations) {
 
-  herring.diet.data <- read_csv(herring.dietdata)
+  herring.data <- read_csv(herring.locations) %>% 
+    distinct(location,latitude,longitude)
   
   model.shape <- readOGR(shape.file)
   
@@ -31,7 +32,7 @@ make_map <- function(shape.file, file.name,scale.factor, bar.position, min.long,
                            style = north_arrow_fancy_orienteering) +
     #geom_text(data= world_points,aes(x=X, y=Y, label=name),
     #          color = "darkgrey", check_overlap = FALSE) +
-    geom_point(aes(x = longitude, y = latitude, size = year), data = herring.diet.data, alpha = .5, colour = "red") +
+    geom_point(aes(x = longitude, y = latitude), data = herring.data, alpha = .75, colour = "black") +
     coord_sf(xlim = c(min.long, max.long), ylim = c(min.lat, max.lat), expand = FALSE)+
     annotation_scale(location = "bl", width_hint = 0.2) +
     xlab("Lon")+
@@ -40,7 +41,7 @@ make_map <- function(shape.file, file.name,scale.factor, bar.position, min.long,
     annotate(geom="text", x=-102, y=24, label="Puget Sound",
              color="black")
   
-  ggsave(file.name, model.map, width = 16,height = 12, units="cm", dpi = 400)
+  ggsave(file.name, model.map, dpi = 400)
   
   return(model.map)
   
