@@ -4,11 +4,15 @@
 #   install.packages("rnaturalearthhires",
 #                  repos = "http://packages.ropensci.org",
 #                  type = "source")
-
+#"tidygeocoder"
 
 # List of packages for session
-.packages = c("devtools","stringi","data.table","tidyverse","readxl","rlang","rnaturalearth","rnaturalearthdata",
-              "rnaturalearthhires","ggspatial","rgdal","tidygeocoder","stringr","sf")
+.packages = c("devtools","stringi","data.table","tidyverse","readxl","rlang","ggspatial","rgdal",
+              "stringr","sf","raster","Redmonder","lubridate",
+              "gridExtra","mgcv")
+
+devtools::install_github("vr-vr/itsadug", build_vignettes=TRUE)
+library(itsadug)
 
 # Install CRAN packages (if not already installed)
 .inst <- .packages %in% installed.packages()
