@@ -34,32 +34,32 @@ lapply(data.files.raw,test_herring_raw_data)
 ```
 
 
-Clean raw herring data and estimate frequency of occurrence
+Include raw herring data
 
 ```{r}
 # add raw data clean files
 
-source("Kwiath_diets.R")
+#source("Kwiath_diets.R")
+#source("clean_raw_data.R")
 
 raw.data.files <- list.files("~/herringdiet/raw_diet_data_rev", full.names = TRUE)
 
-raw.data.files <- raw.data.files[3]
-
 raw.data <- lapply(raw.data.files,get_raw_data) %>% 
   bind_rows %>% 
-  mutate(data = as.character(data))
+   dplyr::select(-loc_date_index, -num_fish, -taxa_predator, -loc_index) %>% 
+  rename(predator_taxa = predator)
 
 raw.data %>% 
-  bind_rows(herring.clean.data) %>% 
-  mutate(predator_stage = if_else(predator_stage=="juvenileAndadult","adult",predator_stage)) %>% 
-  mutate(atlantis_pred_group = if_else(atlantis_pred_group == "STEELHEAD", "ST", atlantis_pred_group)) %>% 
-  write_csv("herring_diet_data.csv")
+  write_csv("~/herringdiet/herring_raw_diet_data.csv")
 ```
 
 
 
 ```{r clean herring data}
 
+
+raw.data  <- fread("herring_raw_diet_data.csv") %>% 
+  as_tibble
 
 data.folder <- "~/herringdiet/herring_data_rev"
 
@@ -68,6 +68,10 @@ data.files <- list.files(path=data.folder,pattern = "*.xlsx", full.names = TRUE)
 herring.clean.data <- lapply(data.files, clean_herringdata, diet.names="diet_file_list.csv", predator.list = "herring_predator_names.csv") %>% 
   bind_rows
 
+all.herring.data <- herring.clean.data %>% 
+   dplyr::select(-file_name, -full_file_name, -data, -index, -value, -predator_name) %>% 
+  bind_rows(raw.data)
+
 diet.file.names <- read_csv("diet_file_list.csv") %>% 
   rename(file_name = FILE, reference = CITA)
 
@@ -75,6 +79,7 @@ herring.clean.data %>%
   mutate(file_name=gsub(".xlsx","",file_name)) %>% 
   left_join(diet.file.names, by="file_name") %>% 
   distinct(file_name, reference) %>% 
+  arrange(reference) %>% 
   #filter(is.na(reference)) %>% 
   write_csv("herring_references.csv")
 
@@ -83,7 +88,7 @@ herring.clean.data %>%
   #pred.groups <- c("HSL","PIN","SAL","SB","FMM","CI","CO","CU","DOG","PIS","ROC","MRO","SMD","SP")
   
   
-herring.clean.data %>% 
+all.herring.data %>% 
   #filter(is.na(latitude) & !is.na(longitude)) %>% 
   distinct(location, latitude,longitude) %>% 
   arrange(location) %>% 
@@ -92,6 +97,19 @@ herring.clean.data %>%
 #join with Raw data and convert predator_size based on units
 
 
+clean.all.herring.data <- all.herring.data %>% 
+   mutate(predator_stage = if_else(predator_stage=="juvenileAndadult","adult",predator_stage)) %>% 
+  mutate(atlantis_pred_group = if_else(atlantis_pred_group == "STEELHEAD", "ST", atlantis_pred_group)) %>% 
+  mutate(predator_size=if_else(size_units=="in",predator_size*25.4,
+                               if_else(size_units=="cm",predator_size*10,
+                                       if_else(size_units=="lbs",predator_size*453.592,predator_size)))) %>% 
+  mutate(size_units=if_else(size_units=="lbs","g",
+                            if_else(size_units=="cm","mm",
+                                    if_else(size_units=="in","mm", size_units)))) %>% 
+  mutate(size_units = if_else(size_units=="NA",NA_character_,size_units))
+
+clean.all.herring.data %>% 
+  write_csv("herring_diet_data.csv")
 
 
 
@@ -102,7 +120,7 @@ Plot sampling points and map
 
 ```{r make map, echo=FALSE}
 
-#https://boundingbox.klokantech.com/
+ #https://boundingbox.klokantech.com/
 #-123.7904,47.0152,-121.9301,49.2511 Puget Sound
 
 shape.file <- "USMaritimeLimitsNBoundaries.shp"
@@ -141,6 +159,13 @@ Summarize number of samples by categories
 
 herring.data <- read_csv("herring_diet_basin_data.csv")
 
+
+year.data <- herring.data %>% 
+  mutate(index_rows = 1) %>% 
+  group_by(atlantis_pred_group, year) %>%
+  summarize(tot_data = sum(index_rows))
+
+
 basin.data <- herring.data %>% 
   mutate(index_rows = 1) %>% 
   group_by(atlantis_pred_group, predator_stage, basin) %>%
@@ -155,7 +180,7 @@ herring.data %>%
   distinct(atlantis_pred_group, predator_taxa) %>% 
   arrange(atlantis_pred_group, predator_taxa)
 
-red.pal1 <- redmonder.pal(8,"qMSOMed")[3:8]
+red.pal1 <- redmonder.pal(8,"qMSOBuWarm")[c(2,1)]
 
 sample.plot <- basin.data %>% 
       ggplot(aes(x=atlantis_pred_group, y=tot_data, fill = predator_stage)) + 
@@ -164,11 +189,9 @@ sample.plot <- basin.data %>%
       theme_classic()+
       theme(legend.position = "bottom")+
       ylab("Data samples") + 
-      xlab("Predator group") 
-    # stat_smooth(method = "lm", formula = y ~ x + I(x^2), size = 1, colour="grey50")  #quadratic
-    #  stat_smooth(method = 'lm', formula = y ~ poly(x,2), aes(colour = 'polynomial'), se= FALSE)+
+      xlab("Predator group")
  
-red.pal2 <- redmonder.pal(8,"qMSOMed")
+red.pal2 <-  c(redmonder.pal(8,"qMSOMed"),redmonder.pal(8,"qMSOPap")[8])
 
 basin.plot <- basin.data %>% 
       ggplot(aes(x=atlantis_pred_group, y=tot_data, fill = basin)) + 
@@ -178,13 +201,23 @@ basin.plot <- basin.data %>%
       theme(legend.position = "bottom")+
       ylab("Data samples") + 
       xlab("Predator group") 
-    # stat_smooth(method = "lm", formula = y ~ x + I(x^2), size = 1, colour="grey50")  #quadratic
-    #  stat_smooth(method = 'lm', formula = y ~ poly(x,2), aes(colour = 'polynomial'), se= FALSE)+
-   
 
 grid.sample <- grid.arrange(sample.plot, basin.plot, ncol=1)
 
-    ggsave("herring_samples_plot.png", grid.sample, device="png",width=9,dpi=350)
+ggsave("herring_samples_plot.png", grid.sample, device="png",width=10,height=10, dpi=350)
+
+   
+year.plot <- year.data %>% 
+      ggplot(aes(x=year, y=tot_data, group = atlantis_pred_group)) + 
+      geom_point(size=1, color = "steelblue4")+
+  geom_line(color = "steelblue2")+
+  facet_wrap(~ atlantis_pred_group)+
+     # scale_fill_manual(values=red.pal2, name = "Basin")+
+      theme_classic()+
+      ylab("Data samples") + 
+      xlab("Year") 
+   
+ggsave("herring_year_plot.png", year.plot, device="png",width=9,height = 7,dpi=350)
     
 
 
@@ -198,7 +231,56 @@ Fit model
 #used http://jacolienvanrij.com/Tutorials/GAMM.html
 #https://fromthebottomoftheheap.net/2014/05/09/modelling-seasonal-data-with-gam/
 
-herring.basin.data <- read_csv("herring_diet_basin.data.csv")
+herring.basin.data <- read_csv("herring_diet_basin_data.csv")
+
+herring.spawning <- read_csv("herring_spawning_numbers.csv")
+
+herring.data.spawning <- herring.basin.data %>% 
+  left_join(herring.spawning, by = "year")
+
+herring.basin.data.mod <- herring.data.spawning %>% 
+  mutate(predator_stage = as.factor(predator_stage)) %>% 
+   mutate(atlantis_pred_group = as.factor(atlantis_pred_group)) %>% 
+  mutate(sample_source = as.factor(sample_source)) %>% 
+  mutate(variable = as.factor(variable)) %>% 
+  mutate(basin = as.factor(basin))
+
+
+
+
+
+```
+
+
+Only include predator groups with more than 50 data points
+```{r}
+#used http://jacolienvanrij.com/Tutorials/GAMM.html
+#https://fromthebottomoftheheap.net/2014/05/09/modelling-seasonal-data-with-gam/
+
+herring.basin.data <- read_csv("herring_diet_basin_data.csv")
+
+ps.data <- herring.basin.data %>% 
+  mutate(index_rows = 1) %>% 
+  group_by(atlantis_pred_group) %>%
+  summarize(tot_data = sum(index_rows)) %>% 
+  filter(tot_data>50) %>% 
+  distinct(atlantis_pred_group) %>% 
+  pull(atlantis_pred_group)
+
+herring.pred.data <- herring.basin.data %>% 
+  filter(atlantis_pred_group %in% ps.data)
+
+herring.spawning <- read_csv("herring_spawning_numbers.csv")
+
+herring.data.spawning <- herring.pred.data %>% 
+  left_join(herring.spawning, by = "year")
+
+herring.basin.data.mod <- herring.data.spawning %>% 
+  mutate(predator_stage = as.factor(predator_stage)) %>% 
+   mutate(atlantis_pred_group = as.factor(atlantis_pred_group)) %>% 
+  mutate(sample_source = as.factor(sample_source)) %>% 
+  mutate(variable = as.factor(variable)) %>% 
+  mutate(basin = as.factor(basin))
 
 
 #with factor include intercept difference: Group + s(Time, by=Group).
@@ -209,106 +291,36 @@ herring.basin.data <- read_csv("herring_diet_basin.data.csv")
 #m2 <- gam(value + basin ~ s(year), data=herring.basin.data)
 
 
-gam(value ~ basin + s(year) + s(value, by=basin), data=herring.basin.data)
+gam.model <- gam(proportion ~ year +
+                   s(year, by=basin) +
+                   s(proportion, by=atlantis_pred_group) +
+                   s(year, atlantis_pred_group, bs='fs', m=1)+
+                   s(all_herring, basin, bs = "fs", m=1),
+                   data = herring.basin.data.mod,
+                   rho=valRho)
+
 
 #random smooths adjust the trend of a numeric predictor in a nonlinear way: s(Time, Subject, bs="fs", m=1).
 
-gam.model <- gam(value ~ atlantis_pred_group + s(year, by=basin)
-      + s(year, basin, bs="fs", m=1), data=herring.basin.data)
-
-
-herring.basin.data.mod <- herring.basin.data %>% 
-  mutate(predator_stage = as.factor(predator_stage)) %>% 
-   mutate(atlantis_pred_group = as.factor(atlantis_pred_group)) %>% 
-  mutate(sample_source = as.factor(sample_source)) %>% 
-  mutate(variable = as.factor(variable))
-
-
-m1 <- gam(value ~ year + 
-          s(year, by = atlantis_pred_group)+
-          s(year, by = basin)+
-          s(predator_size, predator_stage, bs='fs', m=1)+
-          s(year, sample_source, bs='fs', m=1) ,
-          data = herring.basin.data.mod, 
-          rho=valRho)
-      
 
 #check the distribution and autocorrelation structure of the residuals:
 
-check_resid(m1, split_by=c("year", "basin"))
+check_resid(gam.model, split_by=c("year", "atlantis_pred_group"))
 
 summary(gam.model)
 
-save(m1, file="m1.rda", compress='xz')
+save(gam.model, file="gam_model_herring.rda", compress='xz')
 
 # set two plot panels:
 par(mfrow=c(1,2), cex=1.1)
 
 # Plot difference surface:
-plot_diff2(m1, view=c("year", "predator-stage"), 
+plot_diff2(gam.model, view=c("year", "predator-stage"), 
     comp=list(Group=c("adults", "juveniles")), 
     plotCI=TRUE, rm.ranef=TRUE,
     main="Adults-Juveniles",
     zlim=c(-13,13))
 
-# plot differences per condition:
-for(i in -1:4){
-  add=TRUE
-  if(i==-1){
-    add = FALSE
-  }
-  p <- plot_diff(m1.rho, view="Time", 
-    comp=list(Group=c("Adults", "Children")),
-    cond=list(Condition=i),
-    ylim=c(-13,13),
-    main="Adults-Children",
-    col=rainbow(6)[i+2], add=add,
-    rm.ranef=TRUE)
-  text(2000, p$est[length(p$est)], pos=4, labels=i, col=rainbow(6)[i+2],
-       font=2, xpd=TRUE)
-}
-
-```
-
-
-
-```{r}
-
-herring.basin.data <- read_csv("herring_diet_basin.data.csv")
-
-herring.predator <- herring.basin.data %>% 
-  group_by(atlantis_pred_group) %>% 
-  summarise(tot_entries = n()) %>% 
-  arrange(desc(tot_entries))
-
-herring.predator.year <- herring.data %>% 
-  group_by(atlantis_pred_group, year) %>% 
-  summarise(tot_entries = n()) %>% 
-  arrange(desc(year,atlantis_pred_group,tot_entries))
-
-
-```
-
-
-Check if original data sums to 1, part of the assessment of how original data were calculated. 
-
-```{r}
-
-data.path <- "/home/atlantis/herringdiet/herring_data/"
-file.list <- list.files(data.path,pattern = "*.*xlsx")
-
-data.summary <- lapply(file.list,check_herringdata, data.path)
-
-data.sums <- data.summary %>% 
-  bind_rows
-
-prop.sum.data <- data.sums %>% 
-  group_by(data,location,file_name,year,author,publication_yr) %>% 
-  mutate(sum_test=if_else(prop_sum == 100, "100",if_else(prop_sum<100, "<100", ">100") )) %>% 
-  ungroup %>% 
-  distinct(file_name,year,publication_yr,author,sum_test)
-
-write_csv(prop.sum.data,"summary_herring_data.csv")
 ```
 
 

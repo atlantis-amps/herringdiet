@@ -70,7 +70,9 @@ clean_herringdata <- function(this.file, diet.names, predator.list){
     dplyr::select(-starts_with("lat_"),-starts_with("lon_")) %>% 
     mutate(longitude = if_else(longitude>1,longitude*-1,longitude)) %>% 
     mutate(latitude = if_else(latitude<1,latitude*-1,latitude))
-  
+ 
+  print(this.file)
+  print(names(herring.coord.data))
   return(herring.coord.data)
   
   }

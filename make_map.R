@@ -11,14 +11,13 @@
 make_map <- function(shape.file, boundary.file, file.name,scale.factor, bar.position, min.long, max.long, min.lat, max.lat, herring.locations) {
 
   herring.data <- read_csv(herring.locations) %>% 
-    distinct(location, latitude,longitude)
+    distinct(latitude,longitude)
   
   
   my_box <- rgeos::bbox2SP(n = 50, s = 46.75, w = -125, e = -121.75,
                            proj4string = CRS("+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"))
   
   target.crs <- projection(my_box)
-  
   
   boundary.shape <- readOGR(paste0("~/herringdiet/shapefiles/",boundary.file))
   boundary.shape.crs <- spTransform(boundary.shape, target.crs)
@@ -42,6 +41,17 @@ make_map <- function(shape.file, boundary.file, file.name,scale.factor, bar.posi
   
    box.df <- broom::tidy(my_box) 
   
+  coordinates(herring.data) <- c("longitude","latitude")
+  
+  target.crs <- CRS("+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs")
+  
+  proj4string(herring.data)  <- target.crs
+  
+  
+  coord.intersect <- raster::intersect(herring.data, boundary.shape.crs)
+  
+  boundary.coords <- coord.intersect@coords %>%
+    as_tibble()
   
   col.pal <- c(redmonder.pal(8,"qMSOMed"),redmonder.pal(8,"qMSOPap")[8])
   
@@ -53,7 +63,7 @@ make_map <- function(shape.file, boundary.file, file.name,scale.factor, bar.posi
                            pad_x = unit(0.3, "in"), pad_y = unit(0.3, "in"),
                            style = north_arrow_fancy_orienteering) +
     scale_fill_manual(values = col.pal, name="Basin") + 
-    geom_point(aes(x = longitude, y = latitude), data = herring.data, alpha = .75, colour = "black") +
+    geom_point(aes(x = longitude, y = latitude), data = boundary.coords, alpha = .75, colour = "black", size = 0.5) +
     annotation_scale(location = "bl", width_hint = 0.2,
                      pad_x = unit(0.3, "in"), pad_y = unit(0.3, "in")) +
     xlab("Lon")+

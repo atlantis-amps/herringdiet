@@ -8,7 +8,7 @@
 
 # List of packages for session
 .packages = c("devtools","stringi","data.table","tidyverse","readxl","rlang","ggspatial","rgdal",
-              "stringr","sf","raster","Redmonder","lubridate",
+              "stringr","sf","raster","Redmonder","lubridate","ggs",
               "gridExtra","mgcv")
 
 devtools::install_github("vr-vr/itsadug", build_vignettes=TRUE)
