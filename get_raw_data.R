@@ -11,7 +11,7 @@ get_raw_data <- function(thisfile){
   
     this.data <- fread(thisfile) %>% 
       as_tibble %>% 
-      filter(atlantis_prey_group =="HE")  
+      filter(atlantis_prey_group =="HE")
   
   return(this.data)
   

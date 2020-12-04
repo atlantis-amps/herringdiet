@@ -26,8 +26,15 @@ coord.intersect <- raster::intersect(herring.coords, boundary.shape.crs)
 coord.data <- coord.intersect@data %>% 
   tbl_df() %>% 
   dplyr::select(-WEB_GEOMET, -CNT_NAME, -SUM_AREA) %>% 
-  rename(basin = NAME)
+  rename(basin = NAME) %>% 
+  mutate(nrowid=1:nrow(.))
 
-return(coord.data)
+
+coord.data.coords <- coord.intersect@coords %>% 
+  tbl_df() %>%
+  mutate(nrowid=1:nrow(.)) %>% 
+  left_join(coord.data, by="nrowid")
+
+return(coord.data.coords)
 
 }

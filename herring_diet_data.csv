@@ -183,22 +183,22 @@ HSL,adult,HE,Clupeids,Clupea pallasii,0.29036566270608816,San Juan Islands,2005,
 HSL,adult,HE,Clupeids,Herrings,0.035737312333057,San Juan Islands,2005,Lance,2012,freq_occurrence,NA,NA,scats,Phoca vitulina,48.650194444444445,-122.73847222222223
 HSL,adult,HE,Clupeidae,Unidentified clupeid,0.005783253708825748,Padilla Bay,2006,Luxa,2008,freq_ocurrence,NA,NA,scats,Phoca vitulina,48.46358333333334,-122.5051111111111
 HSL,adult,HE,Clupeidae,Pacific herring,0.028664822730701537,Padilla Bay,2006,Luxa,2008,freq_ocurrence,NA,NA,scats,Phoca vitulina,48.46358333333334,-122.5051111111111
-HSL,adult,HE,Fish,Herring,0.07142857142857142,Nisqually River,1927,Scheffer,1931,no_prey,21772.415999999997,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,88450.44,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,0.07142857142857142,Nisqually River,1927,Scheffer,1931,no_prey,95.15931318229245,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,164.88980273246707,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
 HSL,adult,HE,Fish,Herring,0.9702970297029703,Nisqually River,1927,Scheffer,1931,no_prey,1320.8,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
 HSL,adult,HE,Fish,Herring,0.7058823529411765,Sucia Island,1927,Scheffer,1931,no_prey,1498.6,mm,stomachs,Phoca vitulina,48.757583333333336,-122.90341666666667
 HSL,adult,HE,Fish,Herring,0.14285714285714285,Sucia Island,1927,Scheffer,1931,no_prey,1498.6,mm,stomachs,Phoca vitulina,48.757583333333336,-122.90341666666667
 HSL,adult,HE,Fish,Herring,1,Sinclair Island,1927,Scheffer,1931,no_prey,NA,NA,stomachs,Phoca vitulina,48.61405555555556,-122.68711111111112
-HSL,adult,HE,Fish,Herring,0.045454545454545456,Nisqually River,1927,Scheffer,1931,no_prey,24040.376,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,49441.528,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.12307692307692308,Nisqually River,1927,Scheffer,1931,no_prey,78471.416,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.9803921568627451,Nisqually River,1927,Scheffer,1931,no_prey,22679.6,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.9411764705882353,Nisqually River,1927,Scheffer,1931,no_prey,32658.624,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.6666666666666666,Nisqually River,1927,Scheffer,1931,no_prey,55791.816,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,30390.664,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,89357.624,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,76657.048,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,80739.376,g,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,0.045454545454545456,Nisqually River,1927,Scheffer,1931,no_prey,98.92991255352027,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,131.25981661762236,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,0.12307692307692308,Nisqually River,1927,Scheffer,1931,no_prey,157.3280457639324,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,0.9803921568627451,Nisqually River,1927,Scheffer,1931,no_prey,96.69494182755389,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,0.9411764705882353,Nisqually River,1927,Scheffer,1931,no_prey,111.55953478388213,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,0.6666666666666666,Nisqually River,1927,Scheffer,1931,no_prey,137.62953469764713,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,108.45479940543642,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,165.55095355799486,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,155.89136877179163,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
+HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,159.0957790652306,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
 HSL,adult,HE,herring,herring,0.9210526315789473,Nisqually flats,1922,Scheffer,1928,no_prey,NA,NA,stomach,Phoca vitulina,47.09583333333334,-122.71022222222223
 HSL,adult,HE,herring,herring,0.631578947368421,Nisqually flats,1922,Scheffer,1928,no_prey,NA,NA,stomach,Phoca vitulina,47.09583333333334,-122.71022222222223
 HSL,adult,HE,herring,herring,0.03571428571428571,Nisqually flats,1922,Scheffer,1928,no_prey,NA,NA,stomach,Phoca vitulina,47.09583333333334,-122.71022222222223

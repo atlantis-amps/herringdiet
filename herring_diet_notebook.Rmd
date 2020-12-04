@@ -106,7 +106,11 @@ clean.all.herring.data <- all.herring.data %>%
   mutate(size_units=if_else(size_units=="lbs","g",
                             if_else(size_units=="cm","mm",
                                     if_else(size_units=="in","mm", size_units)))) %>% 
-  mutate(size_units = if_else(size_units=="NA",NA_character_,size_units))
+  mutate(size_units = if_else(size_units=="NA",NA_character_,size_units)) %>% 
+  mutate(predator_size = if_else(atlantis_pred_group=="HSL" & size_units=="g",(((predator_size/1000)*5095)^(1/2.550)),predator_size)) %>% 
+  mutate(size_units = if_else(atlantis_pred_group=="HSL" & size_units=="g","mm",size_units)) #%>% 
+ # filter(proportion>0)
+#used relationship for HSL lenght from Boulva & McLaren 1979 , W(kg) = L(cm)^2.550/5695
 
 clean.all.herring.data %>% 
   write_csv("herring_diet_data.csv")
@@ -233,19 +237,128 @@ Fit model
 
 herring.basin.data <- read_csv("herring_diet_basin_data.csv")
 
+herring.basin.data.scaled <- herring.basin.data %>% 
+  mutate(proportion_sc=(0.999*(0.00001+proportion)))
+#beta distribution does not use 0 or 1 values
+#Ainsworth et al used this approach to scale the diet proportion values
+#dat2 <- cbind(x[,1:2],(0.999*(0.00001 + x[,3:(nprey+2)]/rowSums(x[,3:(nprey+2)]))))
+
+
 herring.spawning <- read_csv("herring_spawning_numbers.csv")
 
-herring.data.spawning <- herring.basin.data %>% 
+herring.data.spawning <- herring.basin.data.scaled %>% 
   left_join(herring.spawning, by = "year")
 
+ps.basins <- herring.data.spawning %>% 
+  distinct(basin) %>% 
+  arrange(basin) %>% 
+  mutate(basin_id=1:nrow(.))
+
+pred.stages <- herring.data.spawning %>% 
+  distinct(predator_stage) %>% 
+  arrange(predator_stage) %>% 
+  mutate(predator_stage_id=1:nrow(.))
+
+pred.groups <- herring.data.spawning %>% 
+  distinct(atlantis_pred_group) %>% 
+  arrange(atlantis_pred_group) %>% 
+  mutate(atlantis_pred_group_id=1:nrow(.))
+
 herring.basin.data.mod <- herring.data.spawning %>% 
-  mutate(predator_stage = as.factor(predator_stage)) %>% 
-   mutate(atlantis_pred_group = as.factor(atlantis_pred_group)) %>% 
-  mutate(sample_source = as.factor(sample_source)) %>% 
-  mutate(variable = as.factor(variable)) %>% 
-  mutate(basin = as.factor(basin))
+  left_join(ps.basins, by="basin") %>% 
+  left_join(pred.stages, by="predator_stage") %>% 
+  left_join(pred.groups, by="atlantis_pred_group")
+
+# examine data
+
+fit.norm <- fitdist(herring.basin.data.mod$proportion_sc, distr = "beta", method = "mme")
+plot(fit.norm)
+
+est_kvalue <- function(eachkvalue){
+  
+  print(eachkvalue)
+  herring.m2 <- gam(proportion_sc ~ s(year, bs="ts") + s(longitude,latitude, bs="ts", k = eachkvalue), family=betar(link="logit"), data=herring.basin.data.mod)
+
+  aic.value <- AIC(herring.m2)
+  print(aic.value)
+  
+  result.frame <- tibble(k_value=eachkvalue,AIC=aic.value)
+  return(result.frame)
+}
+
+kvalues <- seq(10,100, by=1)
+
+kvalues.table <- lapply(kvalues,est_kvalue) %>% 
+  bind_rows
+
+#models
+
+#Gamma log link can only be used if there are non-zero values
+herring.m1 <- gam(proportion_sc ~ s(year, bs="cr") + s(longitude,latitude, bs="ts", k = 10), family=betar(link="logit"),data=herring.basin.data.mod)
+
+herring.m2 <- gam(proportion_sc ~ s(year, bs="ts") + s(longitude,latitude, bs="ts", k = 10), family=betar(link="logit"), data=herring.basin.data.mod)
+
+herring.m3 <- gam(proportion_sc ~ s(year, bs="cr") + s(all_herring, bs="cr") + s(longitude,latitude, bs="ts", k = 10), family=betar(link="logit"), data=herring.basin.data.mod)
+
+herring.m4 <- gam(proportion_sc ~ s(year, bs="ts") + s(all_herring, bs="ts") + s(longitude,latitude, bs="ts", k = 10), family=betar(link="logit"), data=herring.basin.data.mod)
+
+herring.m5 <- gam(proportion_sc ~ s(year, bs="tp") + s(all_herring, bs="tp") + s(longitude,latitude, bs="tp", k = 10), family=betar(link="logit"), data=herring.basin.data.mod)
+
+herring.m6 <- gam(proportion_sc ~ s(year, bs="ts") + s(all_herring, bs="ts") + s(longitude,latitude, bs="ts", k = 10) + s(predator_size, bs="ts"), family=betar(link="logit"), data=herring.basin.data.mod)
+
+#te terms produce smooths of multiple predictors from tensor productos of any bases available for use with s
+#higher k can result in very complicated shapes, better to leave the default
+herring.m7 <- gam(proportion_sc ~ te(year, bs="ts") + s(all_herring, bs="ts") + s(longitude,latitude, bs="ts", k = 10) + s(predator_size, bs="ts"), family=betar(link="logit"), data=herring.basin.data.mod)
+
+# The m= argument allows one to specify different types of covariance functions.
+#this model separates herring by stock
+herring.m8 <- gam(proportion_sc ~ s(longitude,latitude, bs="ts", k = 10, m=2)+ te(year, bs="ts")+ s(cherry_point, bs="ts") +  s(other_herring, bs="ts") + s(predator_size, bs="ts"), family=betar(link="logit"),
+                  data=herring.basin.data.mod)
+
+#include basin as a random term
+herring.m9 <- gam(proportion_sc ~ s(longitude,latitude, bs="tp", k = 10)+ te(year)+ s(cherry_point, bs="ts") +  s(other_herring, bs="ts") +  s(predator_size, bs="tp") + s(basin_id, bs = 're'), family=betar(link="logit"),
+                  data=herring.basin.data.mod)
+
+#add predator stage as a smoother
+herring.m10 <- gam(proportion_sc ~ s(longitude,latitude, bs="tp", k = 10)+ te(year)+ s(cherry_point, bs="ts") +  s(other_herring, bs="ts") +  s(predator_size, bs="tp") + s(basin_id, bs = 're') + s(predator_stage_id, bs = 're'), family=betar(link="logit"),
+                  data=herring.basin.data.mod)
 
 
+#add predator stage as a smoother
+herring.m11 <- gam(proportion_sc ~ s(longitude,latitude, bs="tp", k = 10)+ te(year)+ s(atlantis_pred_group_id, bs="ts")+ s(cherry_point, bs="ts") +  s(other_herring, bs="ts") +  s(predator_size, bs="tp") + s(basin_id, bs = 're') + s(predator_stage_id, bs = 're'), family=betar(link="logit"),
+                  data=herring.basin.data.mod)
+
+
+AIC.summary <- c(AIC(herring.m1),AIC(herring.m2),AIC(herring.m3),AIC(herring.m4),AIC(herring.m5),AIC(herring.m6),AIC(herring.m7),
+  AIC(herring.m8),AIC(herring.m9),AIC(herring.m10),AIC(herring.m11)) %>% 
+  as_tibble %>% 
+  mutate(model=1:11) %>% 
+  arrange(desc(value))
+
+write_csv(AIC.summary, "AIC_model_summary.csv")
+
+plot(herring.m1, residuals=TRUE)
+
+#this plot omits parts of the smooths that are to far from covariate values
+plot(herring.m2, too.far = 0.15)
+
+gam.check(herring.m1)
+
+
+#compute semivariogram
+
+data.coords <- herring.basin.data.mod %>% 
+  dplyr::select(longitude, latitude) %>% 
+  as.matrix()
+
+res.data <- residuals(herring.m1) %>% 
+  as.matrix()
+
+variog.data <- variog(coords=data.coords,data=res.data)
+
+plot(variog.data)
+
+acf(herring.basin.data.mod$year)
 
 
 
