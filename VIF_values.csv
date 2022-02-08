@@ -1,0 +1,20 @@
+variable,VIF,variable_factor
+`SOG herring`,1.7676102941732685,`SOG herring`
+Chinook,3.440460021476619,Chinook
+Chum,4.920168758488435,Chum
+Coho,2.8881593106416696,Coho
+Pink,18.980677540677355,Pink
+Sockeye,2.580477350014112,Sockeye
+Steelhead,23.3312358038944,Steelhead
+`Harbour seals`,28.749471195789646,`Harbour seals`
+`Southern Resident orcas`,5.812175363865496,`Southern Resident orcas`
+SST,3.2415694783195494,SST
+`Chl a`,2.725513871966524,`Chl a`
+`Fraser river flow`,1.574152107284338,`Fraser river flow`
+PNI,2.581850731265831,PNI
+NPGO,3.346485749658867,NPGO
+PDO,4.005699658034842,PDO
+UPW,2.1226149136130483,UPW
+MEI,3.131938818343424,MEI
+`Cherry point herring`,13.661425724233727,`Cherry point herring`
+`Other herring`,2.65090756107824,`Other herring`

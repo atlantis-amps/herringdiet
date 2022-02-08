@@ -1,0 +1,1632 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Chinook model
+
+```{r}
+
+herring.basin.data.mod <- read_csv("herring_diet_basin_data_mod.csv") %>% 
+ mutate(basin_id = as.factor(basin_id), atlantis_pred_group_id = as.factor(atlantis_pred_group_id),
+        basin=as.factor(basin)) %>% #, year = as.factor(year)) %>% 
+  filter(atlantis_pred_group=="CI")
+
+pred.year <- herring.basin.data.mod %>% 
+  distinct(year,atlantis_pred_group) %>% 
+  arrange(atlantis_pred_group,year)
+
+pred.year %>% filter(atlantis_pred_group=="CI") %>% pull(year)
+
+# examine data
+# see https://cran.r-project.org/web/packages/fitdistrplus/vignettes/FAQ.html#can-i-personalize-the-default-plot-given-for-an-object-of-class-fitdist-or-fitdistcens
+
+#gamma 1.4 to reduce overfitting
+
+#the Variance Inflation Factor, which determines multicollinearity found values > 5 (Figure S5) for PDO, Harbour seals, steelhead salmon, pink salmon, Cherry point herring stock, and orcas. As a result, we eliminated these five variables from the final models.
+
+#full model with no interaction terms
+base="tp"
+
+herring.m1 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    s(predator_size, bs=base, k=12) + 
+                    s(basin, bs='re', k=10) +
+                    s(year, bs=base, k=10) +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                   SOG.Herring +
+                   s(chum.ab, bs = base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   RR.SSTOut +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs = base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                   s(NPGO, bs=base, k=6) +
+                   s(UPW, bs = base, k=6) +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+saveRDS(herring.m1,"herring_gam_CI_m1.rds")
+
+gam.check(herring.m1)
+
+concurvity(herring.m1, full = TRUE)
+
+#use this to test for autocorrelation if needed
+#acf(resid(herring.m1), main="ACF of model 1")
+
+#model with interaction terms by year
+
+base="tp"
+
+herring.m2 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=year, bs=base, k=12) + 
+                    s(basin, by=year, bs='re', k=10) +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                   SOG.Herring +
+                   s(chum.ab, bs = base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   RR.SSTOut +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs=base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                  s(NPGO, bs=base, k=6) +
+                  s(UPW, bs=base, k=6) +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m2,"herring_gam_CI_m2.rds")
+
+gam.check(herring.m2)
+
+
+#model with interaction terms by basin
+
+base="tp"
+
+herring.m3 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=12) + 
+                    s(year, by=basin, bs=base, k=10) +
+                    basin +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                   s(SOG.Herring, bs=base, k=6) +
+                   s(chum.ab, bs=base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   s(RR.SSTOut, bs=base, k=6) +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs=base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                   s(NPGO, bs=base, k=6) +
+                   s(UPW, bs=base, k=6) +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+concurvity(herring.m3, full = TRUE)
+
+saveRDS(herring.m3,"herring_gam_CI_m3.rds")
+
+gam.check(herring.m3)
+
+#combines year and basin
+base="tp"
+
+herring.m4 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=12) + 
+                    year +
+                    basin +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                   SOG.Herring +
+                   s(chum.ab, bs=base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   RR.SSTOut +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs=base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                   s(NPGO, bs=base, k=6) +
+                   s(UPW, bs=base, k=6) +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+concurvity(herring.m4, full = TRUE)
+
+saveRDS(herring.m4,"herring_gam_CI_m4.rds")
+
+gam.check(herring.m4)
+
+
+anova.gam(herring.m1,herring.m2,herring.m3,herring.m4,test="F")
+
+AIC(herring.m1,herring.m2,herring.m3,herring.m4)
+
+
+#same as models 1-4 but uses ts as a basis
+
+base="ts"
+
+herring.m5 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    s(predator_size, bs=base, k=12) + 
+                    s(basin, bs='re', k=10) +
+                    s(year, bs=base, k=10) +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                   SOG.Herring +
+                   s(chum.ab, bs = base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   RR.SSTOut +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs = base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                   s(NPGO, bs=base, k=6) +
+                   s(UPW, bs = base, k=6) +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+saveRDS(herring.m5,"herring_gam_CI_m5.rds")
+
+gam.check(herring.m5)
+
+concurvity(herring.m5, full = TRUE)
+
+#model with interaction terms by year
+#same as m.2
+
+base="ts"
+
+herring.m6 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=year, bs=base, k=12) + 
+                    s(basin, by=year, bs='re', k=10) +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                   SOG.Herring +
+                   s(chum.ab, bs = base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   RR.SSTOut +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs=base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                  s(NPGO, bs=base, k=6) +
+                  s(UPW, bs=base, k=6) +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m6,"herring_gam_CI_m6.rds")
+
+gam.check(herring.m6)
+
+
+#model with interaction terms by basin
+#same as m.3
+
+base="ts"
+
+herring.m7 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=12) + 
+                    s(year, by=basin, bs=base, k=10) +
+                    basin +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                   s(SOG.Herring, bs=base, k=6) +
+                   s(chum.ab, bs=base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   s(RR.SSTOut, bs=base, k=6) +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs=base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                   s(NPGO, bs=base, k=6) +
+                   UPW +
+                   MEI,
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+concurvity(herring.m7, full = TRUE)
+
+saveRDS(herring.m7,"herring_gam_CI_m7.rds")
+
+gam.check(herring.m7)
+
+base="ts"
+
+herring.m8 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=12) + 
+                    year +
+                    basin +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                   SOG.Herring +
+                   s(chum.ab, bs=base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   RR.SSTOut +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs=base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                   s(NPGO, bs=base, k=6) +
+                   s(UPW, bs=base, k=6) +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+concurvity(herring.m8, full = TRUE)
+
+saveRDS(herring.m8,"herring_gam_CI_m8.rds")
+
+gam.check(herring.m8)
+
+
+anova.gam(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8,test="F")
+
+aic.model.values <- AIC(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8) %>% 
+  arrange(desc(AIC))
+
+aic.model.values
+
+#model 2 with terms that are 0 
+
+base="tp"
+
+herring.m.final <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                   # s(predator_size, by=year, bs=base, k=12) + 
+                    s(basin, by=year, bs='re', k=10) +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                   # s(other_herring, bs=base, k=6) +
+                   SOG.Herring +
+                   #s(chum.ab, bs = base, k=6) +
+                   #s(coho.ab, bs=base, k=6) +
+                   #s(sockeye.ab, bs=base, k=6) +
+                   RR.SSTOut,
+                   #s(Chla.JDF, bs=base, k=6) +
+                   #s(FraserFlow.Out, bs=base, k=6) +
+                   #s(PNI, bs=base, k=6) +
+                  #s(NPGO, bs=base, k=6) +
+                  #s(UPW, bs=base, k=6) +
+                   #s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+saveRDS(herring.m.final,"herring_gam_CI_final.rds")
+
+
+list.fits <- list(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8)
+
+no.fits <- 1:8
+
+gam.res.table <- lapply(no.fits, gam_table, list.fits) %>% 
+  bind_rows
+
+write_csv(gam.res.table, "GAM_table_res_CI.csv")
+
+#the Variance Inflation Factor, which determines multicollinearity found values > 5 (Figure S5) for PDO, Harbour seals, steelhead salmon, pink salmon, Cherry point herring stock, and orcas. As a result, we eliminated these five variables from the final models.
+
+
+#https://cran.r-project.org/web/packages/mgcViz/vignettes/mgcviz.html
+herring.viz <- getViz(herring.m.final)
+
+herring.m.draw <- draw(herring.m.final)
+
+ggsave("CI_gam_plot.png", herring.m.draw, device="png",width=10,height=8, dpi=350)
+
+# print(plot(herring.viz, allTerms = T), pages = 1) # Calls print.plotGam()
+# 
+# #use to plot 2D
+# #plot(sm(herring.viz, 2)) + l_fitRaster() + l_fitContour() + l_points()
+# 
+# 
+# herring.viz.term.1 <- plot(sm(herring.viz, 1)) +
+#   l_fitRaster() + 
+#   l_fitContour() + 
+#   l_points() +
+#   theme_classic() +
+#   labs(tag = "A") +
+#   ggtitle("s(long,lat,0.01):yr")
+# 
+# #use sm to extract smooth terms from model
+# 
+# herring.viz.term.2 <- plot(sm(herring.viz, 2)) +
+#     l_fitLine(colour = "darkred") + 
+#   #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "darkblue", linetype = 2) + 
+#   #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+#   theme_classic() +
+#   labs(tag = "B")+
+#   labs(x="Predator size", y = "s(Predator size, 0:yr)")
+# 
+# herring.viz.term.3 <- plot(sm(herring.viz, 3)) +
+#     l_fitLine(colour = "darkred") + 
+#   #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "darkblue", linetype = 2) + 
+#   #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+#   theme_classic() +
+#   labs(tag = "C") 
+# 
+# herring.viz.term.4 <- plot(pterm(herring.viz, 1)) +
+#     l_fitLine(colour = "darkred") + 
+#     #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "darkblue", linetype = 2) + 
+#     #l_points(shape = 19, size = 1, alpha = 0.1) + 
+#     theme_classic()+
+#     labs(tag = "D") +
+#   labs(x="Year", y = "f(Year)")
+# 
+# herring.viz.term.5 <- plot(pterm(herring.viz, 2)) +
+#     l_fitLine(colour = "darkred") + 
+#     #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "darkblue", linetype = 2) + 
+#     #l_points(shape = 19, size = 1, alpha = 0.1) + 
+#    labs(tag = "E") +
+#     theme_classic() +
+#    labs(x="Strait of Georgia herring", y = "f(Strait of Georgia herring)")
+# 
+# herring.viz.term.6 <- plot(pterm(herring.viz, 3)) +
+#     l_fitLine(colour = "darkred") + 
+#     #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "darkblue", linetype = 2) + 
+#     #l_points(shape = 19, size = 1, alpha = 0.1) + 
+#     theme_classic()+
+#     labs(tag = "F") +
+#   labs(x="SST", y = "f(SST)")
+# 
+# 
+# 
+# grid.sample <- gridPrint(herring.viz.term.1, herring.viz.term.2, herring.viz.term.3,
+#                          herring.viz.term.4, herring.viz.term.5, herring.viz.term.6, ncol=2, nrow=3)
+# 
+# 
+# ggsave("CI_gam_plot.png", grid.sample, device="png",width=10,height=8, dpi=350)
+
+#test effect of te term
+#te terms produce smooths of multiple predictors from tensor productos of any bases available for use with s
+# The m= argument allows one to specify different types of covariance functions.
+
+
+```
+
+Model Coho
+
+```{r coho gam, include=FALSE}
+
+herring.basin.data.mod <- read_csv("herring_diet_basin_data_mod.csv") %>% 
+ mutate(basin_id = as.factor(basin_id), atlantis_pred_group_id = as.factor(atlantis_pred_group_id),
+        basin=as.factor(basin)) %>% 
+  filter(atlantis_pred_group=="CO")
+
+pred.year <- herring.basin.data.mod %>% 
+  distinct(year,atlantis_pred_group) %>% 
+  arrange(atlantis_pred_group,year)
+
+pred.year %>% filter(atlantis_pred_group=="CO") %>% pull(year)
+
+# examine data
+# see https://cran.r-project.org/web/packages/fitdistrplus/vignettes/FAQ.html#can-i-personalize-the-default-plot-given-for-an-object-of-class-fitdist-or-fitdistcens
+
+#gamma 1.4 to reduce overfitting
+
+#the Variance Inflation Factor, which determines multicollinearity found values > 5 (Figure S5) for PDO, Harbour seals, steelhead salmon, pink salmon, Cherry point herring stock, and orcas. As a result, we eliminated these five variables from the final models.
+
+#full model with no interaction terms
+base="tp"
+
+herring.m1 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    s(predator_size, bs=base, k = 12) +
+             #       s(atlantis_pred_group, bs = 're', k=10) +
+                    s(basin, bs='re', k=10) +
+                    s(year, bs=base, k=10) +
+                    #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs = base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(chinook.ab, bs=base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs = base, k=8) +
+                    s(Chla.JDF, bs = base, k=8) +
+                    s(FraserFlow.Out, bs = base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs = base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+saveRDS(herring.m1,"herring_gam_CO_m1.rds")
+
+gam.check(herring.m1)
+
+concurvity(herring.m1, full = TRUE)
+
+#model with interaction terms by year
+
+base="tp"
+
+herring.m2 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    predator_size*year + 
+                    s(basin, by=year, bs='re', k=10) +
+                #    s(atlantis_pred_group, by=year, bs = 're', k=10) +
+                    year +
+                    #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    chinook.ab +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    UPW +
+                    MEI,
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m2,"herring_gam_CO_m2.rds")
+
+gam.check(herring.m2)
+
+
+#model with interaction terms by basin
+
+base="tp"
+
+herring.m3 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=10) + 
+                    s(year, by=basin, bs=base, k=10) +
+                 #   s(atlantis_pred_group, by=basin, bs='re', k=10) +
+                    basin +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(chinook.ab, bs=base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs=base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+concurvity(herring.m3, full = TRUE)
+
+saveRDS(herring.m3,"herring_gam_CO_m3.rds")
+
+gam.check(herring.m3)
+
+#combines year and basin
+base="tp"
+
+herring.m4 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=12) + 
+                    year +
+                    basin +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                   s(SOG.Herring, bs=base, k=6) +
+                   s(chum.ab, bs=base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   s(RR.SSTOut, bs=base, k=6) +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs=base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                   s(NPGO, bs=base, k=6) +
+                   s(UPW, bs=base, k=6) +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+concurvity(herring.m4, full = TRUE)
+
+saveRDS(herring.m4,"herring_gam_CO_m4.rds")
+
+gam.check(herring.m4)
+
+
+anova.gam(herring.m1,herring.m2,herring.m3,herring.m4,test="F")
+
+AIC(herring.m1,herring.m2,herring.m3,herring.m4)
+
+
+#same as models 1-4 but uses ts as a basis
+
+base="ts"
+
+herring.m5 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    s(predator_size, bs=base, k = 12) +
+                   # s(atlantis_pred_group, bs = 're', k=10) +
+                    s(basin, bs='re', k=10) +
+                    s(year, bs=base, k=10) +
+                    #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs = base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(chinook.ab, bs=base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs = base, k=8) +
+                    s(Chla.JDF, bs = base, k=8) +
+                    s(FraserFlow.Out, bs = base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs = base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m5,"herring_gam_CO_m5.rds")
+
+gam.check(herring.m5)
+
+concurvity(herring.m5, full = TRUE)
+
+#model with interaction terms by year
+
+base="ts"
+
+herring.m6 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    predator_size*year + 
+                    s(basin, by=year, bs='re', k=10) +
+                  #  s(atlantis_pred_group, by=year, bs = 're', k=10) +
+                    year +
+                    #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(chinook.ab, bs=base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    UPW +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m6,"herring_gam_CO_m6.rds")
+
+gam.check(herring.m6)
+
+
+#model with interaction terms by basin
+
+base="ts"
+
+herring.m7 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=10) + 
+                    s(year, by=basin, bs=base, k=10) +
+                   # s(atlantis_pred_group, by=basin, bs='re', k=10) +
+                    basin +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(chinook.ab, bs=base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    RR.SSTOut +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    PNI +
+                    NPGO +
+                    UPW +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+concurvity(herring.m7, full = TRUE)
+
+saveRDS(herring.m7,"herring_gam_CO_m7.rds")
+
+gam.check(herring.m7)
+
+#combines year and basin
+base="ts"
+
+herring.m8 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=12) + 
+                    year +
+                    basin +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                   s(SOG.Herring, bs=base, k=6) +
+                   s(chum.ab, bs=base, k=6) +
+                   s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   s(RR.SSTOut, bs=base, k=6) +
+                   s(Chla.JDF, bs=base, k=6) +
+                   s(FraserFlow.Out, bs=base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                   s(NPGO, bs=base, k=6) +
+                   UPW +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+concurvity(herring.m8, full = TRUE)
+
+saveRDS(herring.m8,"herring_gam_CO_m8.rds")
+
+gam.check(herring.m8)
+
+
+
+anova.gam(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8,test="F")
+
+aic.model.values <- AIC(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8) %>% 
+  arrange(desc(AIC))
+
+aic.model.values
+
+#model 1 with terms that are 0 
+
+
+list.fits <- list(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8)
+
+no.fits <- 1:8
+
+gam.res.table <- lapply(no.fits, gam_table, list.fits) %>% 
+  bind_rows
+
+write_csv(gam.res.table, "GAM_table_res_CO.csv")
+
+#the Variance Inflation Factor, which determines multicollinearity found values > 5 (Figure S5) for PDO, Harbour seals, steelhead salmon, pink salmon, Cherry point herring stock, and orcas. As a result, we eliminated these five variables from the final models.
+
+#model 8
+base="ts"
+
+herring.m.final <- gam(proportion_sc ~ 
+        #            s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=12) + 
+                    year +
+                    basin +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=6) +
+                  # s(SOG.Herring, bs=base, k=6) +
+                  # s(chum.ab, bs=base, k=6) +
+                  # s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                   s(RR.SSTOut, bs=base, k=6) +
+                  # s(Chla.JDF, bs=base, k=6) +
+                  # s(FraserFlow.Out, bs=base, k=6) +
+                  # s(PNI, bs=base, k=6) +
+                  # s(NPGO, bs=base, k=6) +
+                   UPW +
+                   s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m.final,"herring_gam_CO_final.rds")
+
+
+
+#https://cran.r-project.org/web/packages/mgcViz/vignettes/mgcviz.html
+herring.viz <- getViz(herring.m.final)
+
+print(plot(herring.viz, allTerms = T), pages = 1) # Calls print.plotGam()
+
+herring.m.draw <- draw(herring.m.final)+
+  theme_classic()
+
+#use to plot 2D
+#plot(sm(herring.viz, 2)) + l_fitRaster() + l_fitContour() + l_points()
+
+ggsave("CO_gam_plot.png", herring.m.draw, device="png",width=10,height=10, dpi=350)
+
+
+# herring.viz.term.1 <- plot(sm(herring.viz, 1)) +
+#   l_fitRaster() + 
+#   l_fitContour() + 
+#   l_points() +
+#   theme_classic() +
+#   labs(tag = "A") +
+#   ggtitle("s(long,lat,3.32):year")
+# 
+# #use sm to extract smooth terms from model
+# 
+# herring.viz.term.2 <- plot(sm(herring.viz, 2)) +
+#     l_fitLine(colour = "red") + 
+#   #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+#   #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+#   theme_classic() +
+#   labs(tag = "B")+
+#   labs(x="Predator size", y = "s(Predator size, 0.74:basin)")
+# 
+# herring.viz.term.3 <- plot(sm(herring.viz, 5)) +
+#     l_fitLine(colour = "red") + 
+#   #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+#   #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+#   theme_classic() +
+#   labs(tag = "C") +
+#   labs(x="NPGO", y = "s(NPGO, 2.02)")
+# 
+# herring.viz.term.4 <- plot(pterm(herring.viz, 1)) +
+#     l_fitLine(colour = "red") + 
+#     #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+#     #l_points(shape = 19, size = 1, alpha = 0.1) + 
+#     theme_classic()+
+#     labs(tag = "D") +
+#   labs(x="SOG herring", y = "f(SOG herring)")
+# 
+# herring.viz.term.5 <- plot(pterm(herring.viz, 2)) +
+#     l_fitLine(colour = "red") + 
+#     #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+#     #l_points(shape = 19, size = 1, alpha = 0.1) + 
+#    labs(tag = "E") +
+#     theme_classic() +
+#    labs(x="SST", y = "f(SST)")
+# 
+# herring.viz.term.6 <- plot(pterm(herring.viz, 3)) +
+#     l_fitLine(colour = "red") + 
+#     #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+#     #l_points(shape = 19, size = 1, alpha = 0.1) + 
+#     theme_classic()+
+#     labs(tag = "F") +
+#   labs(x="Fraser river discharge", y = "f(Fraser river discharge)")
+# 
+# herring.viz.term.7 <- plot(pterm(herring.viz, 4)) +
+#     l_fitLine(colour = "red") + 
+#     #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+#     l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+#     #l_points(shape = 19, size = 1, alpha = 0.1) + 
+#     theme_classic()+
+#     labs(tag = "G") +
+#   labs(x="Annual Upwelling Index", y = "f(Annual Upwelling Index)")
+# 
+# 
+# grid.sample <- gridPrint(herring.viz.term.1, herring.viz.term.2, herring.viz.term.3,
+#                          herring.viz.term.4, herring.viz.term.5, herring.viz.term.6, herring.viz.term.7, ncol=3, nrow=3)
+# 
+# 
+# ggsave("CO_gam_plot.png", grid.sample, device="png",width=10,height=8, dpi=350)
+
+#test effect of te term
+#te terms produce smooths of multiple predictors from tensor productos of any bases available for use with s
+# The m= argument allows one to specify different types of covariance functions.
+
+
+#test effect of te term
+#te terms produce smooths of multiple predictors from tensor productos of any bases available for use with s
+# The m= argument allows one to specify different types of covariance functions.
+
+
+
+```
+
+
+Hatchery Chinook
+
+```{r}
+
+herring.basin.data.mod <- read_csv("herring_diet_basin_data_mod.csv") %>% 
+ mutate(basin_id = as.factor(basin_id), atlantis_pred_group_id = as.factor(atlantis_pred_group_id),
+        basin=as.factor(basin), year = as.factor(year)) %>% 
+  filter(atlantis_pred_group=="CIH")
+
+pred.year <- herring.basin.data.mod %>% 
+  distinct(year,atlantis_pred_group) %>% 
+  arrange(atlantis_pred_group,year)
+
+pred.year %>% filter(atlantis_pred_group=="CIH") %>% pull(year)
+
+# examine data
+# see https://cran.r-project.org/web/packages/fitdistrplus/vignettes/FAQ.html#can-i-personalize-the-default-plot-given-for-an-object-of-class-fitdist-or-fitdistcens
+
+#gamma 1.4 to reduce overfitting
+
+#the Variance Inflation Factor, which determines multicollinearity found values > 5 (Figure S5) for PDO, Harbour seals, steelhead salmon, pink salmon, Cherry point herring stock, and orcas. As a result, we eliminated these five variables from the final models.
+
+#full model with no interaction terms
+base="tp"
+
+herring.m1 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    s(predator_size, bs=base, k = 12) +
+                    s(atlantis_pred_group, bs = 're', k=10) +
+                    s(basin, bs='re', k=10) +
+                    s(year, bs=base, k=10) +
+                    #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs = base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(chinook.ab, bs=base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs = base, k=8) +
+                    s(Chla.JDF, bs = base, k=8) +
+                    s(FraserFlow.Out, bs = base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs = base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+saveRDS(herring.m1,"herring_gam_CIH_m1.rds")
+
+gam.check(herring.m1)
+
+concurvity(herring.m1, full = TRUE)
+
+#model with interaction terms by year
+
+base="tp"
+
+herring.m2 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=year, bs=base, k=12) + 
+                    s(basin, by=year, bs='re', k=10) +
+                    s(atlantis_pred_group, by=year, bs = 're', k=10) +
+                    year +
+                    #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs=base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m2,"herring_gam_CIH_m2.rds")
+
+gam.check(herring.m2)
+
+
+#model with interaction terms by basin
+
+base="tp"
+
+herring.m3 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=10) + 
+                    s(year, by=basin, bs=base, k=10) +
+                    s(atlantis_pred_group, by=basin, bs='re', k=10) +
+                    basin +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs=base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+concurvity(herring.m3, full = TRUE)
+
+saveRDS(herring.m3,"herring_gam_CIH_m3.rds")
+
+gam.check(herring.m3)
+
+#combines year and basin
+base="tp"
+
+herring.m4 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=10) + 
+                    s(atlantis_pred_group, by=basin, bs = 're', k=10) +
+                    s(year, by=basin, bs=base, k=10) +
+                    s(predator_size, by=year, bs="base", k=12) + 
+                    s(atlantis_pred_group, by=year, bs = 're', k=10) +
+                    basin +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                   s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs=base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+concurvity(herring.m4, full = TRUE)
+
+saveRDS(herring.m4,"herring_gam_CIH_m4.rds")
+
+gam.check(herring.m4)
+
+
+anova.gam(herring.m1,herring.m2,herring.m3,herring.m4,test="F")
+
+AIC(herring.m1,herring.m2,herring.m3,herring.m4)
+
+
+#same as models 1-4 but uses ts as a basis
+
+base="ts"
+
+herring.m5 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    s(predator_size, bs=base, k = 12) +
+                    s(atlantis_pred_group, bs = 're', k=10) +
+                    s(basin, bs='re', k=10) +
+                    s(year, bs=base, k=10) +
+                    #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs = base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(chinook.ab, bs=base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs = base, k=8) +
+                    s(Chla.JDF, bs = base, k=8) +
+                    s(FraserFlow.Out, bs = base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs = base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m5,"herring_gam_CIH_m5.rds")
+
+gam.check(herring.m5)
+
+concurvity(herring.m5, full = TRUE)
+
+#model with interaction terms by year
+
+base="ts"
+
+herring.m6 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=year, bs=base, k=12) + 
+                    s(basin, by=year, bs='re', k=10) +
+                    s(atlantis_pred_group, by=year, bs = 're', k=10) +
+                    year +
+                    #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs=base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+
+saveRDS(herring.m6,"herring_gam_CIH_m6.rds")
+
+gam.check(herring.m6)
+
+
+#model with interaction terms by basin
+
+base="ts"
+
+herring.m7 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=10) + 
+                    s(year, by=basin, bs=base, k=10) +
+                    s(atlantis_pred_group, by=basin, bs='re', k=10) +
+                    basin +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                    s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs=base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+concurvity(herring.m7, full = TRUE)
+
+saveRDS(herring.m7,"herring_gam_CIH_m7.rds")
+
+gam.check(herring.m7)
+
+#combines year and basin
+base="ts"
+
+herring.m8 <- gam(proportion_sc ~ 
+                    s(longitude, latitude, by=year, bs=base, k = 100) + 
+                    s(predator_size, by=basin, bs=base, k=10) + 
+                    s(atlantis_pred_group, by=basin, bs = 're', k=10) +
+                    s(year, by=basin, bs=base, k=10) +
+                    s(predator_size, by=year, bs="base", k=12) + 
+                    s(atlantis_pred_group, by=year, bs = 're', k=10) +
+                    basin +
+                    year +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                   s(other_herring, bs=base, k=8) +
+                    s(SOG.Herring, bs=base, k=8) +
+                    s(chum.ab, bs = base, k=8) +
+                    s(coho.ab, bs=base, k=8) +
+                    s(sockeye.ab, bs=base, k=8) +
+                    s(RR.SSTOut, bs=base, k=8) +
+                    s(Chla.JDF, bs=base, k=8) +
+                    s(FraserFlow.Out, bs=base, k=8) +
+                    s(PNI, bs=base, k=8) +
+                    s(NPGO, bs=base, k=8) +
+                    s(UPW, bs=base, k=8) +
+                    s(MEI, bs=base, k=8),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=TRUE, data=herring.basin.data.mod)
+
+concurvity(herring.m8, full = TRUE)
+
+saveRDS(herring.m8,"herring_gam_CIH_m8.rds")
+
+gam.check(herring.m8)
+
+
+
+anova.gam(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8,test="F")
+
+aic.model.values <- AIC(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8) %>% 
+  arrange(desc(AIC))
+
+aic.model.values
+
+#model 1 with terms that are 0 
+
+
+list.fits <- list(herring.m1,herring.m2,herring.m3,herring.m4,herring.m5,herring.m6,herring.m7,herring.m8)
+
+no.fits <- 1:8
+
+gam.res.table <- lapply(no.fits, gam_table, list.fits) %>% 
+  bind_rows
+
+write_csv(gam.res.table, "GAM_table_res_CIH.csv")
+
+#the Variance Inflation Factor, which determines multicollinearity found values > 5 (Figure S5) for PDO, Harbour seals, steelhead salmon, pink salmon, Cherry point herring stock, and orcas. As a result, we eliminated these five variables from the final models.
+
+base="ts"
+
+herring.m.final <- gam(proportion_sc ~ 
+                    s(longitude, latitude, bs=base, k = 100) + 
+                    predator_size +
+                    s(atlantis_pred_group, bs = 're', k=10) +
+                    s(basin, bs='re', k=10) +
+                  #  s(year, bs=base, k=10) +
+                  #  s(predator_stage_id, bs = 'ts', k = 1) +
+                  #  s(other_herring, bs=base, k=6) +
+                   SOG.Herring +
+                  # s(chum.ab, bs = base, k=6) +
+                  # s(coho.ab, bs=base, k=6) +
+                   s(sockeye.ab, bs=base, k=6) +
+                  # s(RR.SSTOut, bs = base, k=6) +
+                   Chla.JDF +
+                  # s(FraserFlow.Out, bs = base, k=6) +
+                   s(PNI, bs=base, k=6) +
+                 # s(NPGO, bs=base, k=6) +
+                   UPW,
+                  # s(MEI, bs=base, k=6),
+                  family=betar(link="logit"), method="REML", gamma=1.4, select=FALSE, data=herring.basin.data.mod)
+
+saveRDS(herring.m.final,"herring_gam_CIH_final.rds")
+
+
+
+#https://cran.r-project.org/web/packages/mgcViz/vignettes/mgcviz.html
+herring.viz <- getViz(herring.m.final)
+
+print(plot(herring.viz, allTerms = T), pages = 1) # Calls print.plotGam()
+
+herring.m.draw <- draw(herring.m.final)+
+  theme_classic()
+
+#use to plot 2D
+#plot(sm(herring.viz, 2)) + l_fitRaster() + l_fitContour() + l_points()
+
+ggsave("CIH_gam_plot.png", herring.m.draw, device="png",width=10,height=8, dpi=350)
+
+
+herring.viz.term.1 <- plot(sm(herring.viz, 1)) +
+  l_fitRaster() + 
+  l_fitContour() + 
+  l_points() +
+  theme_classic() +
+  labs(tag = "A") +
+  ggtitle("s(long,lat,3.32):year")
+
+#use sm to extract smooth terms from model
+
+herring.viz.term.2 <- plot(sm(herring.viz, 2)) +
+    l_fitLine(colour = "red") + 
+  #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+  #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+  theme_classic() +
+  labs(tag = "B")+
+  labs(x="Predator size", y = "s(Predator size, 0.74:basin)")
+
+herring.viz.term.3 <- plot(sm(herring.viz, 5)) +
+    l_fitLine(colour = "red") + 
+  #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+  #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+  theme_classic() +
+  labs(tag = "C") +
+  labs(x="NPGO", y = "s(NPGO, 2.02)")
+
+herring.viz.term.4 <- plot(pterm(herring.viz, 1)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()+
+    labs(tag = "D") +
+  labs(x="SOG herring", y = "f(SOG herring)")
+
+herring.viz.term.5 <- plot(pterm(herring.viz, 2)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+   labs(tag = "E") +
+    theme_classic() +
+   labs(x="SST", y = "f(SST)")
+
+herring.viz.term.6 <- plot(pterm(herring.viz, 3)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()+
+    labs(tag = "F") +
+  labs(x="Fraser river discharge", y = "f(Fraser river discharge)")
+
+herring.viz.term.7 <- plot(pterm(herring.viz, 4)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()+
+    labs(tag = "G") +
+  labs(x="Annual Upwelling Index", y = "f(Annual Upwelling Index)")
+
+
+grid.sample <- gridPrint(herring.viz.term.1, herring.viz.term.2, herring.viz.term.3,
+                         herring.viz.term.4, herring.viz.term.5, herring.viz.term.6, herring.viz.term.7, ncol=3, nrow=3)
+
+
+ggsave("CIH_gam_plot.png", grid.sample, device="png",width=10,height=8, dpi=350)
+
+#test effect of te term
+#te terms produce smooths of multiple predictors from tensor productos of any bases available for use with s
+# The m= argument allows one to specify different types of covariance functions.
+
+
+```
+
+
+
+Extra code
+```{r}
+
+#remove correlated variables
+# https://rstudio-pubs-static.s3.amazonaws.com/326465_9748350bbfca41afb753211eff074761.html
+
+#GAM models
+#https://m-clark.github.io/posts/2019-10-20-big-mixed-models/
+# https://rpubs.com/ryankelly/GAMs
+#https://multithreaded.stitchfix.com/blog/2015/07/30/gam/
+
+#variography
+#https://www.r-bloggers.com/2016/03/variography-with-gstat-and-ggplot2/
+
+#used geocoding to get locations, but ended up going through each article to find the maps and find the corresponding coordinates
+# revised data files are in herring_data_rev
+
+# location.table <- lapply(sampling.locations,get_location) %>% 
+#   bind_rows
+# 
+# write_csv(location.table,"sampling_coordinates.csv")
+# # I reviewed this manually for missing data, and saved as "sampling_coordinates_rev.csv"
+# 
+# location.data <- read_csv("sampling_coordinates_rev.csv")
+# 
+# herring.loc.corr <- herring.clean.data %>% 
+#   filter(latitude==0) %>% 
+#   dplyr::select(-latitude,-longitude) %>% 
+#   left_join(location.data,by="location")
+# 
+# herring.loc.data <- herring.clean.data %>% 
+#   filter(!latitude==0) %>% 
+#   bind_rows(herring.loc.corr)
+
+
+Model HSL 
+```{r}
+herring.basin.data.mod <- read_csv("herring_diet_basin_data_mod.csv")
+
+pred.year <- herring.basin.data.mod %>% 
+  distinct(year,atlantis_pred_group) %>% 
+  arrange(atlantis_pred_group,year)
+
+pred.year %>% filter(atlantis_pred_group=="HSL") %>% pull(year)
+
+# examine data
+# see https://cran.r-project.org/web/packages/fitdistrplus/vignettes/FAQ.html#can-i-personalize-the-default-plot-given-for-an-object-of-class-fitdist-or-fitdistcens
+
+herring.basin.data.mod.ci <- herring.basin.data.mod %>% 
+  filter(atlantis_pred_group=="HSL")
+
+est_kvalue <- function(thiskvalue, herring.basin.data.mod){
+  
+  year.ks <- herring.basin.data.mod %>% 
+    distinct(year) %>% 
+    pull(year) %>% 
+    length(.)-1
+  
+  print(eachkvalue)
+  
+  herring.ks <- gam(proportion_sc ~ s(year, bs="ts", k = year.ks) + s(longitude,latitude, bs="ts", k = thiskvalue), family=betar(link="logit"), data=herring.basin.data.mod.ci)
+  
+  aic.value <- AIC(herring.ks)
+  print(aic.value)
+  
+  result.frame <- tibble(k_value=eachkvalue,AIC=aic.value)
+  return(result.frame)
+}
+
+kvalues <- seq(10,100, by=1)
+k.results <- list()
+
+
+for(eachkvalue in 1:length(kvalues)){
+  
+  thiskvalue <- kvalues[eachkvalue]
+  
+  this.result <- est_kvalue(thiskvalue,herring.basin.data.mod.ci)
+  
+  k.results[[eachkvalue]] <- this.result
+}
+
+k.values.res <- k.results %>% 
+  bind_rows %>% 
+  arrange(desc(AIC))
+
+write_csv(k.values.res, "alldata_kvalues.csv")
+
+low.k.value <- k.values.res[1,1] %>% pull(k_value)
+
+year.ks <- herring.basin.data.mod.ci %>% 
+  distinct(year) %>% 
+  pull(year) %>% 
+  length(.)-1
+
+if(year.ks > 10) year.ks = 10
+
+if(low.k.value < 10) low.k.value = 10
+#models
+
+#Gamma log link can only be used if there are non-zero values
+
+base <- "ts"
+herring.ma <- gam(proportion_sc ~ s(year, bs=base, k = year.ks) +
+                   s(longitude,latitude, bs=base, k = low.k.value) + 
+                 #  s(atlantis_pred_group_id, bs=base) + 
+                   s(predator_size, bs=base) + 
+                   s(basin_id, bs = base, k = 8) +
+                 # s(predator_stage_id, bs = 'ts', k = 1) +
+                  s(cherry_point, bs=base) +  
+                  s(other_herring, bs=base) +  
+                  s(SOG.Herring, bs=base) +
+                  s(chinook.ab, bs=base) +
+                  s(chum.ab, bs=base) +
+                  s(coho.ab, bs=base) +
+                  s(pink.ab, bs=base) +
+                  s(sockeye.ab, bs=base) +
+                  s(Seals.Nelson, bs=base) +
+                  s(Orcas, bs=base) +
+                  s(RR.SSTOut, bs=base) +
+                  s(Chla.JDF, bs=base) +
+                  s(FraserFlow.Out, bs=base) +
+                  s(PNI, bs=base) +
+                  s(NPGO, bs=base) +
+                  s(PDO, bs=base) +
+                  s(UPW, bs=base) +
+                  s(MEI, bs=base),
+                   family=betar(link="logit"), method="REML", select=TRUE, data=herring.basin.data.mod.ci)
+
+#cr not used because it ony handles 1D smooths base <-  "cr"
+base <- "tp"
+herring.mc <- gam(proportion_sc ~ s(year, bs=base, k = year.ks) +
+                   s(longitude,latitude, bs=base, k = low.k.value) + 
+                #   s(atlantis_pred_group_id, bs=base) + 
+                   s(predator_size, bs=base) + 
+                   s(basin_id, bs = base, k = 8) +
+                 # s(predator_stage_id, bs = 'ts', k = 1) +
+                  s(cherry_point, bs=base) +  
+                  s(other_herring, bs=base) +  
+                  s(SOG.Herring, bs=base) +
+                  s(chinook.ab, bs=base) +
+                  s(chum.ab, bs=base) +
+                  s(coho.ab, bs=base) +
+                  s(pink.ab, bs=base) +
+                  s(sockeye.ab, bs=base) +
+                  s(Seals.Nelson, bs=base) +
+                  s(Orcas, bs=base) +
+                  s(RR.SSTOut, bs=base) +
+                  s(Chla.JDF, bs=base) +
+                  s(FraserFlow.Out, bs=base) +
+                  s(PNI, bs=base) +
+                  s(NPGO, bs=base) +
+                  s(PDO, bs=base) +
+                  s(UPW, bs=base) +
+                  s(MEI, bs=base),
+                   family=betar(link="logit"), method="REML", select=TRUE, data=herring.basin.data.mod.ci)
+
+if((AIC(herring.ma)<AIC(herring.mc))) base="ts"
+
+if((AIC(herring.mc)<AIC(herring.ma))) base="tp"
+
+
+herring.m1.CI <- gam(proportion_sc ~ s(year, bs=base, k = year.ks) +
+                   s(longitude,latitude, bs=base, k = low.k.value) + 
+                 #  s(atlantis_pred_group_id, bs=base) + 
+                   s(predator_size, bs=base) + 
+                   s(basin_id, bs = base, k = 8) +
+                 # s(predator_stage_id, bs = 'ts', k = 1) +
+                  s(cherry_point, bs=base) +  
+                  s(other_herring, bs=base) +  
+                  s(SOG.Herring, bs=base) +
+                  s(chinook.ab, bs=base) +
+                  s(chum.ab, bs=base) +
+                  s(coho.ab, bs=base) +
+                  s(pink.ab, bs=base) +
+                  s(sockeye.ab, bs=base) +
+                  s(Seals.Nelson, bs=base) +
+                  s(Orcas, bs=base) +
+                  s(RR.SSTOut, bs=base) +
+                  s(Chla.JDF, bs=base) +
+                  s(FraserFlow.Out, bs=base) +
+                  s(PNI, bs=base) +
+                  s(NPGO, bs=base) +
+                  s(PDO, bs=base) +
+                  s(UPW, bs=base) +
+                  s(MEI, bs=base),
+                   family=betar(link="logit"), method="REML", select=TRUE, data=herring.basin.data.mod.ci)
+
+#https://cran.r-project.org/web/packages/mgcViz/vignettes/mgcviz.html
+herring.viz <- getViz(herring.m1)
+
+print(plot(herring.viz, allTerms = T), pages = 1) # Calls print.plotGam()
+
+#use to plot 2D
+#plot(sm(herring.viz, 2)) + l_fitRaster() + l_fitContour() + l_points()
+
+herring.viz.term.2 <- plot(sm(herring.viz, 2)) +
+    l_fitLine(colour = "red") + 
+  #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+  #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+  theme_classic()
+
+herring.viz.term.4 <- plot(sm(herring.viz, 4)) +
+    l_fitLine(colour = "red") + 
+  #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+  #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+  theme_classic()
+
+herring.viz.term.8 <- plot(sm(herring.viz, 8)) +
+    l_fitLine(colour = "red") + 
+  #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+  #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+  theme_classic()
+
+herring.viz.term.10 <- plot(sm(herring.viz, 10)) +
+    l_fitLine(colour = "red") + 
+  #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+  #  l_points(shape = 19, size = 1, alpha = 0.1) + 
+  theme_classic()
+
+herring.viz.term.11 <- plot(sm(herring.viz, 11)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()+
+   labs(x="Harbour seals", y = "s(Harbour seals, 2.27)")
+
+herring.viz.term.12 <- plot(sm(herring.viz, 12)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()
+
+herring.viz.term.13 <- plot(sm(herring.viz, 13)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()
+
+herring.viz.term.14 <- plot(sm(herring.viz, 14)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()
+
+herring.viz.term.20 <- plot(sm(herring.viz, 20)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()
+
+herring.viz.term.21 <- plot(sm(herring.viz, 21)) +
+    l_fitLine(colour = "red") + 
+    #l_rug(mapping = aes(x=x, y=y), alpha = 0.8) +
+    l_ciLine(mul = 5, colour = "blue", linetype = 2) + 
+    #l_points(shape = 19, size = 1, alpha = 0.1) + 
+    theme_classic()
+
+grid.sample <- gridPrint(herring.viz.term.5, herring.viz.term.9, herring.viz.term.14,
+                         herring.viz.term.19, herring.viz.term.21, herring.viz.term.22, ncol=2, nrow=3)
+
+ggsave("all_pred_gam_plot.png", grid.sample, device="png",width=10,height=10, dpi=350)
+
+#test effect of te term
+#te terms produce smooths of multiple predictors from tensor productos of any bases available for use with s
+# The m= argument allows one to specify different types of covariance functions.
+
+
+
+summary(herring.m1)
+
+```
+
+
+Extra code
+```{r}
+
+#remove correlated variables
+# https://rstudio-pubs-static.s3.amazonaws.com/326465_9748350bbfca41afb753211eff074761.html
+
+#GAM models
+#https://m-clark.github.io/posts/2019-10-20-big-mixed-models/
+# https://rpubs.com/ryankelly/GAMs
+#https://multithreaded.stitchfix.com/blog/2015/07/30/gam/
+
+#variography
+#https://www.r-bloggers.com/2016/03/variography-with-gstat-and-ggplot2/
+
+#used geocoding to get locations, but ended up going through each article to find the maps and find the corresponding coordinates
+# revised data files are in herring_data_rev
+
+# location.table <- lapply(sampling.locations,get_location) %>% 
+#   bind_rows
+# 
+# write_csv(location.table,"sampling_coordinates.csv")
+# # I reviewed this manually for missing data, and saved as "sampling_coordinates_rev.csv"
+# 
+# location.data <- read_csv("sampling_coordinates_rev.csv")
+# 
+# herring.loc.corr <- herring.clean.data %>% 
+#   filter(latitude==0) %>% 
+#   dplyr::select(-latitude,-longitude) %>% 
+#   left_join(location.data,by="location")
+# 
+# herring.loc.data <- herring.clean.data %>% 
+#   filter(!latitude==0) %>% 
+#   bind_rows(herring.loc.corr)
+
+est_kvalue <- function(thiskvalue, herring.basin.data.mod){
+  
+  year.ks <- herring.basin.data.mod %>% 
+    distinct(year) %>% 
+    pull(year) %>% 
+    length(.)-1
+  
+  print(eachkvalue)
+  
+  herring.ks <- gam(proportion_sc ~ s(year, bs="ts", k = year.ks) + s(longitude,latitude, bs="ts", k = thiskvalue), family=betar(link="logit"), data=herring.basin.data.mod)
+  
+  aic.value <- AIC(herring.ks)
+  print(aic.value)
+  
+  result.frame <- tibble(k_value=eachkvalue,AIC=aic.value)
+  return(result.frame)
+}
+
+kvalues <- seq(10,100, by=1)
+k.results <- list()
+
+
+for(eachkvalue in 1:length(kvalues)){
+  
+  thiskvalue <- kvalues[eachkvalue]
+  
+  this.result <- est_kvalue(thiskvalue,herring.basin.data.mod)
+  
+  k.results[[eachkvalue]] <- this.result
+}
+
+k.values.res <- k.results %>% 
+  bind_rows %>% 
+  arrange(desc(AIC))
+
+write_csv(k.values.res, "alldata_kvalues.csv")
+
+low.k.value <- k.values.res[1,1] %>% pull(k_value)
+
+year.ks <- herring.basin.data.mod %>% 
+  distinct(year) %>% 
+  pull(year) %>% 
+  length(.)-1
+
+if(year.ks > 10) year.ks = 10
+
+if(low.k.value < 10) low.k.value = 10
+#
+

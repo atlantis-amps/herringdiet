@@ -39,11 +39,16 @@ vignettes/*.pdf
 .Renviron
 
 # Diet data in Excel
+*.xlsx
+*.xls
 all_diet_data/
 data_fix/
 herring_data/
+herring_pred_data_rev/
+herring_pred_data/
 herring_data_rev/
 raw_diet_data/
 raw_diet_data_rev/
 herring_raw_data/
 shapefiles/
+oldmodels/

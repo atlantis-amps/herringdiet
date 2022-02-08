@@ -4,36 +4,13 @@ DOG,juvenile,HE,Herring,Clupea sp.,0.1082737487231869,Off Nanaimo,1974,Jones,197
 DOG,juvenile,HE,Herring,Clupea sp.,0.10607621009268796,Off Nanaimo,1974,Jones,1977,per_consumption,860,mm,stomachs,Squalus acanthias,49.166805555555555,-123.90991666666667
 DOG,adult,HE,Herring,Clupea sp.,0.0037220843672456576,Off Nanaimo,1974,Jones,1977,per_consumption,780,mm,stomachs,Squalus acanthias,49.166805555555555,-123.90991666666667
 DOG,adult,HE,Herring,Clupea sp.,0.16016427104722789,Off Nanaimo,1974,Jones,1977,per_consumption,930,mm,stomachs,Squalus acanthias,49.166805555555555,-123.90991666666667
-ST,juvenile,HE,Clupea pallasii,Clupea pallasii,0.08695652173913043,Mill Bay,1968,Barraclough,1968,no_prey,190,mm,stomachs,Salmo gairdnerii,48.65275,-123.54827777777777
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,0.023809523809523808,Tozier Rock,1968,Barraclough,1968,no_prey,125,mm,stomachs,Oncorhynchus kisutch,48.61591666666667,-123.51441666666666
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,0.041666666666666664,Centre Tow,1968,Barraclough,1968,no_prey,149,mm,stomachs,Oncorhynchus kisutch,48.66030555555555,-123.50308333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.013071895424836602,Village Bay,1966,Barraclough,1967,no_prey,84,mm,stomachs,Oncorhynchus gorbuscha,48.85,-123.34166666666667
-PIS,juvenile,HE,Fish,Clupea pallasii,0.6363636363636364,Village Bay,1966,Barraclough,1967,no_prey,92,mm,stomachs,Oncorhynchus gorbuscha,48.85,-123.34166666666667
-PIS,juvenile,HE,Fish,Clupea pallasii,0.5,Village Bay,1966,Barraclough,1967,no_prey,98,mm,stomachs,Oncorhynchus gorbuscha,48.85,-123.34166666666667
-PIS,juvenile,HE,Fish,Clupea pallasii,0.1891891891891892,Village Bay,1966,Barraclough,1967,no_prey,117,mm,stomachs,Oncorhynchus gorbuscha,48.85,-123.34166666666667
-CU,juvenile,HE,Fish,Clupea pallasii,0.06666666666666667,Active Pass,1966,Barraclough,1967,no_prey,96,mm,stomachs,Oncorhynchus keta,48.862500000000004,-123.34166666666667
-CU,juvenile,HE,Fish,Clupea pallasii,0.03636363636363636,Active Pass,1966,Barraclough,1967,no_prey,110,mm,stomachs,Oncorhynchus keta,48.862500000000004,-123.34166666666667
-PIS,juvenile,HE,Fish,Clupea pallasii,0.015053763440860216,Strait of Georgia,1966,Barraclough,1967,no_prey,88,mm,stomachs,Oncorhynchus gorbuscha,48.855555555555554,-123.30833333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.030303030303030304,Strait of Georgia,1966,Barraclough,1967,no_prey,91,mm,stomachs,Oncorhynchus gorbuscha,48.855555555555554,-123.30833333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.033783783783783786,Strait of Georgia,1966,Barraclough,1967,no_prey,99,mm,stomachs,Oncorhynchus gorbuscha,48.855555555555554,-123.30833333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.08450704225352113,Strait of Georgia,1966,Barraclough,1967,no_prey,103,mm,stomachs,Oncorhynchus gorbuscha,48.855555555555554,-123.30833333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.20161290322580644,Strait of Georgia,1966,Barraclough,1967,no_prey,121,mm,stomachs,Oncorhynchus gorbuscha,48.855555555555554,-123.30833333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.018292682926829267,Strait of Georgia,1966,Barraclough,1967,no_prey,93,mm,stomachs,Oncorhynchus gorbuscha,48.855555555555554,-123.30833333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.0040650406504065045,Strait of Georgia,1966,Barraclough,1967,no_prey,123,mm,stomachs,Oncorhynchus gorbuscha,48.855555555555554,-123.30833333333334
-CU,juvenile,HE,Fish,Clupea pallasii,0.014814814814814815,Strait of Georgia,1966,Barraclough,1967,no_prey,95,mm,stomachs,Oncorhynchus keta,48.855555555555554,-123.30833333333334
-CU,juvenile,HE,Fish,Clupea pallasii,0.037037037037037035,Strait of Georgia,1966,Barraclough,1967,no_prey,112,mm,stomachs,Oncorhynchus keta,48.855555555555554,-123.30833333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.07042253521126761,Strait of Georgia,1966,Barraclough,1967,no_prey,106,mm,stomachs,Oncorhynchus gorbuscha,48.9,-123.26666666666667
-CO,juvenile,HE,Fish,Clupea pallasii,1,Strait of Georgia,1966,Barraclough,1967,no_prey,181,mm,stomachs,Oncorhynchus kisutch,48.958333333333336,-123.1
-PIS,juvenile,HE,Fish,Clupea pallasii,0.125,Off south end of Galiano Island,1966,Barraclough,1967,no_prey,92,mm,stomachs,Oncorhynchus gorbuscha,48.90833333333333,-123.30833333333334
-PIS,juvenile,HE,Fish,Clupea pallasii,0.058823529411764705,Strait of Georgia off Belle Island Group,1966,Barraclough,1967,no_prey,90,mm,stomachs,Oncorhynchus gorbuscha,48.830555555555556,-123.17083333333333
-PIS,juvenile,HE,Fish,Clupea pallasii,0.1111111111111111,Strait of Georgia off Belle Island Group,1966,Barraclough,1967,no_prey,110,mm,stomachs,Oncorhynchus gorbuscha,48.830555555555556,-123.17083333333333
 SMD,adult,HE,Teleostei,Clupeidae,0.032248074019588846,Hood Canal,1977,Bax,1978,freq_occurrence,NA,mm,stomachs,Leptocottus armatus,47.6695,-122.86641666666667
 CI,juvenile,HE,Teleostei,Clupeidae,0.09090371771381289,Hood Canal,1977,Bax,1978,freq_occurrence,267,mm,stomachs,Oncorhynchus tshawytscha,47.6695,-122.86641666666667
 SMD,adult,HE,Clupeidae,Clupeidae,0.006392545641692398,Puget Sound,1978,K. L. Fresh,1979,freq_occurrence,NA,mm,stomachs,Leptocottus armatus,47.11333333333334,-122.70919444444445
 ROC,adult,HE,Teleostei,Clupea harengus pallasii,0.012533572068039392,Edmonds,1976,Hueckel,1987,IRI,NA,mm,stomachs,Sebastes maliger,47.83963888888889,-122.37969444444444
 ROC,adult,HE,Teleostei,Clupea harengus pallasii,0.043659043659043655,Edmonds,1976,Hueckel,1987,IRI,NA,mm,stomachs,Sebastes caurinus,47.83963888888889,-122.37969444444444
 FVS,adult,HE,Fish,Clupea harengus pallasii,0.0850850850850851,Artificial reefs,1976,Hueckel,1987,IRI,NA,mm,stomachs,Ophiodon elongatus,47.61425,-122.44011111111112
-MRO,adult,HE,Fish,Clupea harengus pallasii,0.7535070140280561,Artificial reefs,1976,Hueckel,1987,IRI,NA,mm,stomachs,Sebastes melanops,47.61425,-122.44011111111112
+ROC,adult,HE,Fish,Clupea harengus pallasii,0.7535070140280561,Artificial reefs,1976,Hueckel,1987,IRI,NA,mm,stomachs,Sebastes melanops,47.61425,-122.44011111111112
 FVS,adult,HE,Fish,Clupea harengus pallasii,0,Artificial reefs,1976,Hueckel,1987,IRI,NA,mm,stomachs,Scorpaenichthys marmoratus,47.61425,-122.44011111111112
 SMD,adult,HE,Fish,Clupea harengus pallasii,0,Artificial reefs,1976,Hueckel,1987,IRI,NA,mm,stomachs,Hexagrammos decagrammus,47.61425,-122.44011111111112
 ROC,adult,HE,Fish,Clupea harengus pallasii,0,Artificial reefs,1976,Hueckel,1987,IRI,NA,mm,stomachs,Sebastes auriculatus,47.61425,-122.44011111111112
@@ -47,55 +24,6 @@ FDF,adult,HE,Clupea harengus,Clupea harengus,0.025,Bangor Annex,1975,Peeling,197
 FDF,adult,HE,Clupea harengus,Clupea harengus,0,Bangor Annex,1975,Peeling,1976,freq_occurrence,NA,NA,stomachs,Pleuronichthys coenosus,47.72094444444445,-122.74738888888889
 FVS,adult,HE,Clupea harengus,Clupea harengus,0,Bangor Annex,1975,Peeling,1976,freq_occurrence,NA,NA,stomachs,Scorpaenichthys marmoratus,47.72094444444445,-122.74738888888889
 ROC,adult,HE,Clupea harengus,Clupea harengus,0.026865671641791045,Bangor Annex,1975,Peeling,1976,freq_occurrence,NA,NA,stomachs,Sebastes caurinus,47.72094444444445,-122.74738888888889
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,0.08333333333333333,off Valdes Island,1967,Robinson,1969,no_prey,91,mm,stomachs,Oncorhynchus tshawytscha,49.083333333333336,-123.63333333333334
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.5,off Valdes Island,1967,Robinson,1969,no_prey,95,mm,stomachs,Oncorhynchus keta,49.083333333333336,-123.63333333333334
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.07142857142857142,Active Pass,1967,Robinson,1969,no_prey,89,mm,stomachs,Oncorhynchus keta,48.86666666666667,-123.3
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.002466091245376079,Active Pass,1967,Robinson,1969,no_prey,94,mm,stomachs,Oncorhynchus keta,48.86666666666667,-123.3
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.05042016806722689,Active Pass,1967,Robinson,1969,no_prey,99,mm,stomachs,Oncorhynchus keta,48.86666666666667,-123.3
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.01818181818181818,Active Pass,1967,Robinson,1969,no_prey,109,mm,stomachs,Oncorhynchus keta,48.86666666666667,-123.3
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.009009009009009009,Active Pass,1967,Robinson,1969,no_prey,115,mm,stomachs,Oncorhynchus keta,48.86666666666667,-123.3
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,0.7,off entrance to Active Pass,1967,Robinson,1969,no_prey,126,mm,stomachs,Oncorhynchus kisutch,48.88333333333333,-123.28333333333333
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.5,off Belle Chain Islets,1967,Robinson,1969,no_prey,88,mm,stomachs,Oncorhynchus keta,48.833333333333336,-123.18333333333334
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,1,off Belle Chain Islets,1967,Robinson,1969,no_prey,97,mm,stomachs,Oncorhynchus keta,48.833333333333336,-123.18333333333334
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.5,off Belle Chain Islets,1967,Robinson,1969,no_prey,104,mm,stomachs,Oncorhynchus keta,48.833333333333336,-123.18333333333334
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,0.7142857142857143,2 miles off Active Pass,1967,Robinson,1969,no_prey,109,mm,stomachs,Oncorhynchus kisutch,48.9,-123.26666666666667
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,1,2 miles off Active Pass,1967,Robinson,1969,no_prey,91,mm,stomachs,Oncorhynchus tshawytscha,48.9,-123.26666666666667
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,1,2 miles off Active Pass,1967,Robinson,1969,no_prey,81,mm,stomachs,Oncorhynchus tshawytscha,48.9,-123.26666666666667
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,1,2 miles off Active Pass,1967,Robinson,1969,no_prey,86,mm,stomachs,Oncorhynchus tshawytscha,48.9,-123.26666666666667
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,0.5,2 miles off Active Pass,1967,Robinson,1969,no_prey,90,mm,stomachs,Oncorhynchus tshawytscha,48.9,-123.26666666666667
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,0.16666666666666666,2 miles off Active Pass,1967,Robinson,1969,no_prey,122,mm,stomachs,Oncorhynchus tshawytscha,48.9,-123.26666666666667
-SAL,juvenile,HE,Clupea pallasii,Clupea pallasii,1,2 miles off Active Pass,1967,Robinson,1969,no_prey,63,mm,stomachs,Oncorhynchus nerka,48.9,-123.26666666666667
-SAL,juvenile,HE,Clupea pallasii,Clupea pallasii,0.6666666666666666,2 miles off Active Pass,1967,Robinson,1969,no_prey,136,mm,stomachs,Oncorhynchus nerka,48.9,-123.26666666666667
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.3333333333333333,6 miles off Active Pass,1967,Robinson,1969,no_prey,98,mm,stomachs,Oncorhynchus keta,48.93333333333333,-123.18333333333334
-SAL,juvenile,HE,Clupea pallasii,Clupea pallasii,0.14285714285714285,6 miles off Active Pass,1967,Robinson,1969,no_prey,59,mm,stomachs,Oncorhynchus nerka,48.93333333333333,-123.18333333333334
-SAL,juvenile,HE,Clupea pallasii,Clupea pallasii,1,6 miles off Active Pass,1967,Robinson,1969,no_prey,89,mm,stomachs,Oncorhynchus nerka,48.93333333333333,-123.18333333333334
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,1,off Point Roberts,1967,Robinson,1969,no_prey,127,mm,stomachs,Oncorhynchus kisutch,48.96666666666667,-123.11666666666666
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,1,off Tsawwassen Dock,1967,Robinson,1969,no_prey,104,mm,stomachs,Oncorhynchus kisutch,49,-123.16666666666667
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,0.375,off Canoe Pass Buoy Fraser River,1967,Robinson,1969,no_prey,86,mm,stomachs,Oncorhynchus tshawytscha,49.03333333333333,-123.26666666666667
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,1,off Canoe Pass Buoy Fraser River,1967,Robinson,1969,no_prey,106,mm,stomachs,Oncorhynchus keta,49.03333333333333,-123.26666666666667
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,0.5,"off outfalla, North Arm, Fraser River",1967,Robinson,1969,no_prey,70,mm,stomachs,Oncorhynchus kisutch,49.2,-123.31666666666666
-HE,juvenile,HE,Clupea pallasii,Clupea pallasii,0.08333333333333333,1 miles off Point Grey,1967,Robinson,1969,no_prey,67,mm,stomachs,Clupea pallasii,49.266666666666666,-123.3
-HE,juvenile,HE,Clupea pallasii,Clupea pallasii,0.001976284584980237,3 miles off Point Grey,1967,Robinson,1969,no_prey,71,mm,stomachs,Clupea pallasii,49.266666666666666,-123.35
-HE,juvenile,HE,Clupea pallasii,Clupea pallasii,0.07142857142857142,3 miles off Point Grey,1967,Robinson,1969,no_prey,84,mm,stomachs,Clupea pallasii,49.266666666666666,-123.35
-HE,juvenile,HE,Clupea pallasii,Clupea pallasii,0.38461538461538464,3 miles off Point Grey,1967,Robinson,1969,no_prey,86,mm,stomachs,Clupea pallasii,49.266666666666666,-123.35
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,0.024390243902439025,3 miles off Point Grey,1967,Robinson,1969,no_prey,86,mm,stomachs,Oncorhynchus tshawytscha,49.266666666666666,-123.35
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,0.061224489795918366,3 miles off Point Grey,1967,Robinson,1969,no_prey,88,mm,stomachs,Oncorhynchus tshawytscha,49.266666666666666,-123.35
-CI,juvenile,HE,Clupea pallasii,Clupea pallasii,1,3 miles off Point Grey,1967,Robinson,1969,no_prey,113,mm,stomachs,Oncorhynchus tshawytscha,49.266666666666666,-123.35
-FPS,adult,HE,Clupea pallasii,Clupea pallasii,0.11538461538461539,3 miles off Point Grey,1967,Robinson,1969,no_prey,112,mm,stomachs,Ammodytes hexapterus,49.266666666666666,-123.35
-CU,juvenile,HE,Clupea pallasii,Clupea pallasii,0.2,7 miles off Point Grey,1967,Robinson,1969,no_prey,81,mm,stomachs,Oncorhynchus keta,49.25,-123.41666666666667
-HE,juvenile,HE,Clupea pallasii,Clupea pallasii,0.2727272727272727,6 miles off Sandheads Light,1967,Robinson,1969,no_prey,64,mm,stomachs,Clupea pallasii,49.11666666666667,-123.45
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,0.14814814814814814,6 miles off Sandheads Light,1967,Robinson,1969,no_prey,82,mm,stomachs,Oncorhynchus kisutch,49.11666666666667,-123.45
-CO,juvenile,HE,Clupea pallasii,Clupea pallasii,0.8571428571428571,6 miles off Sandheads Light,1967,Robinson,1969,no_prey,150,mm,stomachs,Oncorhynchus kisutch,49.11666666666667,-123.45
-HE,juvenile,HE,Fish,Clupea pallasii,0.02145922746781116,Off end above Tsawwassen Dock,1967,Robinson,1968,no_prey,183,mm,stomachs,Clupea pallasii,49,-123.16666666666667
-CU,juvenile,HE,Fish,Clupea pallasii,7.032348804500703e-4,Off end above Tsawwassen Dock,1967,Robinson,1968,no_prey,63,mm,stomachs,Oncorhynchus keta,49,-123.16666666666667
-CU,juvenile,HE,Fish,Clupea pallasii,9.132420091324201e-4,Off end above Tsawwassen Dock,1967,Robinson,1968,no_prey,86,mm,stomachs,Oncorhynchus keta,49,-123.16666666666667
-FPS,juvenile,HE,Fish,Clupea pallasii,0.0019550342130987292,Off end above Tsawwassen Dock,1967,Robinson,1968,no_prey,92,mm,stomachs,Ammodytes hexapterus,49,-123.16666666666667
-HE,juvenile,HE,Fish,Clupea pallasii,0.14285714285714285,Off Canoe Pass Buoy,1967,Robinson,1968,no_prey,183,mm,stomachs,Clupea pallasii,49.03333333333333,-123.25
-HE,juvenile,HE,Fish,Clupea pallasii,0.015151515151515152,4-5 miles off and above Porlier Pass,1967,Robinson,1968,no_prey,122,mm,stomachs,Clupea pallasii,49.06666666666667,-123.46666666666667
-HE,juvenile,HE,Fish,Clupea pallasii,0.01639344262295082,4-5 miles off and above Porlier Pass,1967,Robinson,1968,no_prey,197,mm,stomachs,Clupea pallasii,49.06666666666667,-123.46666666666667
-HE,juvenile,HE,Fish,Clupea pallasii,0.0029069767441860465,Point Grey,1967,Robinson,1968,no_prey,113,mm,stomachs,Clupea pallasii,49.28333333333333,-123.28333333333333
-HE,juvenile,HE,Fish,Clupea pallasii,0.0035460992907801418,Point Grey,1967,Robinson,1968,no_prey,165,mm,stomachs,Clupea pallasii,49.28333333333333,-123.28333333333333
-HE,juvenile,HE,Fish,Clupea pallasii,0.008438818565400843,6 miles off sand heads,1967,Robinson,1968,no_prey,105,mm,stomachs,Clupea pallasii,49.06666666666667,-123.45
 FDF,adult,HE,Clupeidae,Clupeidae,0.004077535913681702,Strait of San Juan de Fuca,1975,Simenstad,1979,freq_occurrence,NA,NA,stomachs,Psettichthys melanostictus,48.2145,-124.08680555555556
 SMD,adult,HE,Clupeidae,Clupeidae,0.0018143977800309512,Strait of San Juan de Fuca,1975,Simenstad,1979,freq_occurrence,NA,NA,stomachs,Leptocottus armatus,48.2145,-124.08680555555556
 SMD,adult,HE,Clupea harengus pallasii,Clupea harengus pallasii,0.01015228426395939,Northern Puget Sound,1975,Simenstad,1979,freq_occurrence,NA,NA,stomachs,Leptocottus armatus,48.63961111111111,-122.66680555555556
@@ -183,26 +111,6 @@ HSL,adult,HE,Clupeids,Clupea pallasii,0.29036566270608816,San Juan Islands,2005,
 HSL,adult,HE,Clupeids,Herrings,0.035737312333057,San Juan Islands,2005,Lance,2012,freq_occurrence,NA,NA,scats,Phoca vitulina,48.650194444444445,-122.73847222222223
 HSL,adult,HE,Clupeidae,Unidentified clupeid,0.005783253708825748,Padilla Bay,2006,Luxa,2008,freq_ocurrence,NA,NA,scats,Phoca vitulina,48.46358333333334,-122.5051111111111
 HSL,adult,HE,Clupeidae,Pacific herring,0.028664822730701537,Padilla Bay,2006,Luxa,2008,freq_ocurrence,NA,NA,scats,Phoca vitulina,48.46358333333334,-122.5051111111111
-HSL,adult,HE,Fish,Herring,0.07142857142857142,Nisqually River,1927,Scheffer,1931,no_prey,95.15931318229245,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,164.88980273246707,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.9702970297029703,Nisqually River,1927,Scheffer,1931,no_prey,1320.8,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.7058823529411765,Sucia Island,1927,Scheffer,1931,no_prey,1498.6,mm,stomachs,Phoca vitulina,48.757583333333336,-122.90341666666667
-HSL,adult,HE,Fish,Herring,0.14285714285714285,Sucia Island,1927,Scheffer,1931,no_prey,1498.6,mm,stomachs,Phoca vitulina,48.757583333333336,-122.90341666666667
-HSL,adult,HE,Fish,Herring,1,Sinclair Island,1927,Scheffer,1931,no_prey,NA,NA,stomachs,Phoca vitulina,48.61405555555556,-122.68711111111112
-HSL,adult,HE,Fish,Herring,0.045454545454545456,Nisqually River,1927,Scheffer,1931,no_prey,98.92991255352027,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,131.25981661762236,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.12307692307692308,Nisqually River,1927,Scheffer,1931,no_prey,157.3280457639324,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.9803921568627451,Nisqually River,1927,Scheffer,1931,no_prey,96.69494182755389,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.9411764705882353,Nisqually River,1927,Scheffer,1931,no_prey,111.55953478388213,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,0.6666666666666666,Nisqually River,1927,Scheffer,1931,no_prey,137.62953469764713,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,108.45479940543642,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,165.55095355799486,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,herring,1,Nisqually River,1927,Scheffer,1931,no_prey,155.89136877179163,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,Fish,Herring,1,Nisqually River,1927,Scheffer,1931,no_prey,159.0957790652306,mm,stomachs,Phoca vitulina,47.09905555555556,-122.70144444444445
-HSL,adult,HE,herring,herring,0.9210526315789473,Nisqually flats,1922,Scheffer,1928,no_prey,NA,NA,stomach,Phoca vitulina,47.09583333333334,-122.71022222222223
-HSL,adult,HE,herring,herring,0.631578947368421,Nisqually flats,1922,Scheffer,1928,no_prey,NA,NA,stomach,Phoca vitulina,47.09583333333334,-122.71022222222223
-HSL,adult,HE,herring,herring,0.03571428571428571,Nisqually flats,1922,Scheffer,1928,no_prey,NA,NA,stomach,Phoca vitulina,47.09583333333334,-122.71022222222223
-HSL,adult,HE,herring,herring,0.45454545454545453,Nisqually flats,1922,Scheffer,1928,no_prey,NA,NA,stomach,Phoca vitulina,47.09583333333334,-122.71022222222223
 HSL,adult,HE,Clupeidae,Unidentified clupeids,0.04327755337564916,Protection Island,2009,Thomas,2011,freq_occurrence,NA,NA,scats,Phoca vitulina,48.12777777777778,-122.93055555555556
 HSL,adult,HE,Clupeidae,Clupea pallasii,0.12406231967686093,Protection Island,2009,Thomas,2011,freq_occurrence,NA,NA,scats,Phoca vitulina,48.12777777777778,-122.93055555555556
 HSL,adult,HE,Clupeidae,Unidentified clupeids,0.09541984732824428,Protection Island,2009,Thomas,2011,freq_occurrence,NA,NA,scats,Phoca vitulina,48.12777777777778,-122.93055555555556
@@ -212,9 +120,6 @@ HSL,adult,HE,Pacific herring,Clupea pallasii pallasii,0.272264631043257,Salish S
 ROR,adult,HE,Pacific herring,Clupea pallasii,1,Strait of Georgia,1973,Ford,1998,no_prey,NA,NA,predation_event,Orcinus orca,49.236694444444446,-123.56125
 ROC,adult,HE,Pacific Herring,Clupea harengus pallasii,0.35911353824386955,Saanich Inlet,1986,Murie,1991,freq_occurrence,212,mm,stomachs,Sebastes caurinus,48.55694444444444,-123.51691666666666
 ROC,adult,HE,Pelagic fish,Clupea harengus pallasii,0.650549954170486,Saanich Inlet,1986,Murie,1991,freq_occurrence,235,mm,stomachs,Sebastes maliger,48.55694444444444,-123.51691666666666
-ROC,juvenile,HE,Pacific Herring,Clupea harengus pallasii,0,Zenith & Alki point,1963,Patten,1973,no_prey,149.5,mm,stomachs,Sebastes caurinus,47.38775,-122.32788888888888
-ROC,adult,HE,Pacific Herring,Clupea harengus pallasii,0,Zenith & Alki point,1963,Patten,1973,no_prey,249.5,mm,stomachs,Sebastes caurinus,47.38775,-122.32788888888888
-ROC,adult,HE,Pacific Herring,Clupea harengus pallasii,0.017241379310344827,Zenith & Alki point,1963,Patten,1973,no_prey,300,mm,stomachs,Sebastes caurinus,47.38775,-122.32788888888888
 ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes maliger,47.609027777777776,-122.4418888888889
 ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes maliger,47.609027777777776,-122.4418888888889
 ROC,adult,HE,Herring,Herring,0.026863666890530557,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes maliger,47.609027777777776,-122.4418888888889
@@ -227,32 +132,32 @@ ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,2048,freq_occurrence,
 ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,2061,freq_occurrence,NA,NA,stomachs,Sebastes maliger,47.609027777777776,-122.4418888888889
 ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,2074,freq_occurrence,NA,NA,stomachs,Sebastes maliger,47.609027777777776,-122.4418888888889
 ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,2087,freq_occurrence,NA,NA,stomachs,Sebastes maliger,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0.05625,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0.010135135135135136,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0.12605042016806722,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0.10526315789473684,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0.058823529411764705,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0.10181818181818182,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
-MRO,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0.05625,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0.010135135135135136,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0.12605042016806722,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0.10526315789473684,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes melanops,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0.058823529411764705,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0.10181818181818182,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
+ROC,adult,HE,Herring,Herring,0,Puget Sound,1974,Washington,1978,freq_occurrence,NA,NA,stomachs,Sebastes flavidus,47.609027777777776,-122.4418888888889
 CI,juvenile,HE,Herring,Herring,0.19811320754716982,Central Puget Sound,1979,Fresh,1981,per_biomass,298,mm,stomachs,Oncorhynchus tshawytscha,47.72577777777778,-122.54558333333333
 CI,juvenile,HE,Herring,Herring,0.4152046783625731,South Puget Sound,1979,Fresh,1981,per_biomass,281,mm,stomachs,Oncorhynchus tshawytscha,47.13630555555555,-122.69266666666667
 CI,juvenile,HE,Herring,Herring,0.4659090909090909,Central Puget Sound,1979,Fresh,1981,per_biomass,315,mm,stomachs,Oncorhynchus tshawytscha,47.72577777777778,-122.54558333333333
@@ -267,18 +172,6 @@ CO,adult,HE,Herring,Herring,0.13695871097683787,Gulf Islands,1975,Healey,1978,pe
 CO,adult,HE,Herring,Herring,0.25974025974025977,Fraser Plume,1975,Healey,1978,per_biomass,135,mm,stomachs,Oncorhynchus kisutch,49.31580555555555,-123.46722222222222
 CU,adult,HE,Herring,Herring,0.026305261052210437,Gulf Islands,1975,Healey,1978,per_biomass,104,mm,stomachs,Oncorhynchus keta,48.939388888888885,-123.68477777777778
 CU,adult,HE,Herring,Herring,0.04231209065391413,Fraser Plume,1975,Healey,1978,per_biomass,135,mm,stomachs,Oncorhynchus keta,49.31580555555555,-123.46722222222222
-CO,adult,HE,Herring,Herring,0.21042654028436017,E Vancouver Island,1957,Prakash,1962,freq_occurrence,470,mm,stomachs,Oncorhynchus kisutch,49.18422222222222,-123.89569444444444
-CO,adult,HE,Herring,Herring,0.059909725071809604,E Vancouver Island,1957,Prakash,1962,freq_occurrence,530,mm,stomachs,Oncorhynchus kisutch,49.18422222222222,-123.89569444444444
-CO,adult,HE,Herring,Herring,0.054843304843304845,E Vancouver Island,1957,Prakash,1962,freq_occurrence,520,mm,stomachs,Oncorhynchus kisutch,49.18422222222222,-123.89569444444444
-CO,adult,HE,Herring,Herring,0,E Vancouver Island,1957,Prakash,1962,freq_occurrence,520,mm,stomachs,Oncorhynchus kisutch,49.18422222222222,-123.89569444444444
-CO,adult,HE,Herring,Herring,0,E Vancouver Island,1957,Prakash,1962,freq_occurrence,490,mm,stomachs,Oncorhynchus kisutch,49.18422222222222,-123.89569444444444
-CI,adult,HE,Herring,Herring,0.07918968692449356,E Vancouver Island,1957,Prakash,1962,freq_occurrence,630,mm,stomachs,Oncorhynchus tshawytscha,49.18422222222222,-123.89569444444444
-CI,adult,HE,Herring,Herring,0.27538461538461534,E Vancouver Island,1957,Prakash,1962,freq_occurrence,640,mm,stomachs,Oncorhynchus tshawytscha,49.18422222222222,-123.89569444444444
-CI,adult,HE,Herring,Herring,0.3853853853853854,E Vancouver Island,1957,Prakash,1962,freq_occurrence,540,mm,stomachs,Oncorhynchus tshawytscha,49.18422222222222,-123.89569444444444
-CI,adult,HE,Herring,Herring,0,E Vancouver Island,1957,Prakash,1962,freq_occurrence,590,mm,stomachs,Oncorhynchus tshawytscha,49.18422222222222,-123.89569444444444
-CI,adult,HE,Herring,Herring,0.16550764951321278,E Vancouver Island,1957,Prakash,1962,freq_occurrence,260,mm,stomachs,Oncorhynchus tshawytscha,49.18422222222222,-123.89569444444444
-CO,adult,HE,Sandlance,Herring,0.72,Southern British Columbia,1957,Prakash,1962,freq_occurrence,NA,mm,stomachs,Oncorhynchus kisutch,49.18422222222222,-123.89569444444444
-CI,adult,HE,Sandlance,Herring,0.7128810226155359,Southern British Columbia,1957,Prakash,1962,freq_occurrence,NA,mm,stomachs,Oncorhynchus tshawytscha,49.18422222222222,-123.89569444444444
 CI,juvenile,HE,Teleostei,Clupeidae,0.09090371771381289,Hood Canal,1977,Simenstad,1978,freq_occurrence,267,mm,stomachs,Oncorhynchus tshawytscha,47.72525,-122.76308333333333
 SMD,adult,HE,Teleostei,Clupeidae,0.032248074019588846,Hood Canal,1977,Simenstad,1978,freq_occurrence,NA,NA,stomachs,Leptocottus armatus,47.72525,-122.76308333333333
 CI,juvenile,HE,Clupea pallasi,Clupea pallasi,0.1169,Southern Gulf Islands,2015,Weil,2019,freq_occurrence,NA,NA,gastric_lavage,Oncorhynchus tshawytscha,48.783722222222224,-123.33769444444444
@@ -300,8 +193,6 @@ SB,adult,HE,Pacific herring,Clupea pallasii,0.55,Gulf Islands,1971,Robertson,197
 SB,adult,HE,Pacific herring,Clupea pallasii,0.69,Gulf Islands,1971,Robertson,1972,freq_occurrence,2375,g,stomachs,Phalacrocorax penicillatus,48.891666666666666,-123.46222222222222
 SB,adult,HE,Pacific herring,Clupea pallasii,0.31,Gulf Islands,1971,Robertson,1972,freq_occurrence,1075,g,stomachs,Larus glaucescens,48.891666666666666,-123.46222222222222
 SB,adult,HE,Pacific herring,Clupea pallasii,0.82,Gulf Islands,1971,Robertson,1972,freq_occurrence,1045,g,stomachs,Uria aalge,48.891666666666666,-123.46222222222222
-SP,juvenile,HE,Pacific herring,Clupea pallasii,0.012974051896207582,Southern British Columbia,1969,Robertson,1974,rel_frequency,NA,NA,regurgitation,Phalacrocorax auritus,49.20161111111111,-123.49069444444444
-SP,juvenile,HE,Pacific herring,Clupea pallasii,0,Southern British Columbia,1969,Robertson,1974,rel_frequency,NA,NA,regurgitation,Phalacrocorax pelagicus,49.20161111111111,-123.49069444444444
 SB,juvenile,HE,Pacific herring,Clupea harengus pallasi,0.262773723,Tatoosh Islan,1996,Schrimpf,2012,rel_number,NA,NA,caught_prey,Uria aalge,48.39163888888889,-124.73747222222222
 SB,juvenile,HE,Herring/anchovy,Herring/anchovy,0,Tatoosh Islan,1996,Schrimpf,2012,rel_number,NA,NA,caught_prey,Uria aalge,48.39163888888889,-124.73747222222222
 SB,juvenile,HE,Pacific herring,Clupea harengus pallasi,0.352798054,Tatoosh Islan,1997,Schrimpf,2012,rel_number,NA,NA,caught_prey,Uria aalge,48.39163888888889,-124.73747222222222
@@ -340,6 +231,1039 @@ SB,juvenile,HE,Clupea harengus,Herring,0.49955076370170703,Strait of Georgia,198
 SB,juvenile,HE,Herring,Herring,0.14438556144385561,Protection Island,1975,Wilson,1977,rel_freq,NA,NA,caught_prey,Cerohinca monocerata,48.13333333333333,-122.91666666666667
 SB,juvenile,HE,Herring,Herring,0.2053,Protection Island,1976,Wilson,1977,rel_freq,NA,NA,caught_prey,Cerohinca monocerata,48.13333333333333,-122.91666666666667
 SP,adult,HE,Herring eggs,Herring eggs,0.7,Saltspring Island,1977,Vermeer,1981,wet_weight,NA,NA,stomachs,Melanitta perspicillata,48.74177777777778,-123.41794444444444
+FDF,juvenile,HE,Herring,Herring,0,Bywater Bay,1990,Simenstad,1991,freq_occurrence,25.85,mm,stomachs,English sole,47.8772222,-122.6291667
+FDF,juvenile,HE,Herring,Herring,0,Bywater Bay,1990,Simenstad,1991,freq_occurrence,54.38,mm,stomachs,English sole,47.8772222,-122.6291667
+FDF,juvenile,HE,Herring,Herring,0,Bywater Bay,1990,Simenstad,1991,freq_occurrence,14.9,mm,stomachs,Starry flounder,47.8772222,-122.6291667
+FDF,juvenile,HE,Herring,Herring,0,Bywater Bay,1990,Simenstad,1991,freq_occurrence,31.8,mm,stomachs,Starry flounder,47.8772222,-122.6291667
+POP,juvenile,HE,Herring,Herring,0,Edmonds,1977,Hueckel,1982,IRI,120,mm,stomachs,Striped seaperch,47.83305556,-122.435
+POP,adult,HE,Herring,Herring,0,Edmonds,1977,Hueckel,1982,IRI,185.5,mm,stomachs,Striped seaperch,47.83305556,-122.435
+POP,adult,HE,Herring,Herring,0,Edmonds,1977,Hueckel,1982,IRI,251,mm,stomachs,Striped seaperch,47.83305556,-122.435
+HE,juvenile,HE,Herring,Herring,0,Birch Bay,1976,Miller,1977,IRI,NA,NA,NA,Pacific herring,48.921438,-122.760813
+HE,juvenile,HE,Herring,Herring,0,Cherry Point,1976,Miller,1977,IRI,NA,NA,NA,Pacific herring,48.86109727,-122.7488791
+HE,juvenile,HE,Herring,Herring,0,Padilla Bay,1976,Miller,1977,IRI,NA,NA,NA,Pacific herring,48.50206934,-122.5158277
+HE,juvenile,HE,Herring,Herring,0,Westcott Bay,1976,Miller,1977,IRI,NA,NA,NA,Pacific herring,48.597333,-123.155572
+HE,juvenile,HE,Herring,Herring,0,Westcott Bay,1976,Miller,1977,IRI,NA,NA,NA,Pacific herring,48.597333,-123.155572
+CU,juvenile,HE,Herring,Herring,0,Puget Sound,1974,Miller,1977,IRI,NA,NA,NA,Chum salmon,48.592148,-122.782297
+CU,juvenile,HE,Herring,Herring,0,Puget Sound,1974,Miller,1977,IRI,NA,NA,NA,Chum salmon,48.592148,-122.782297
+CO,juvenile,HE,Herring,Herring,0,Padilla Bay,1975,Miller,1977,IRI,NA,NA,NA,Coho salmon,48.50206934,-122.5158277
+CO,juvenile,HE,Herring,Herring,0,Shannon Point,1975,Miller,1977,IRI,NA,NA,NA,Coho salmon,48.509424,-122.684793
+CO,juvenile,HE,Herring,Herring,0,Birch Bay,1975,Miller,1977,IRI,NA,NA,NA,Coho salmon,48.921438,-122.760813
+CO,juvenile,HE,Herring,Herring,0,Cherry Point,1975,Miller,1977,IRI,NA,NA,NA,Coho salmon,48.86109727,-122.7488791
+CO,juvenile,HE,Herring,Herring,0,Birch Bay,1975,Miller,1977,IRI,NA,NA,NA,Coho salmon,48.921438,-122.760813
+CO,juvenile,HE,Herring,Herring,0,Shanon Point,1975,Miller,1977,IRI,NA,NA,NA,Coho salmon,48.509424,-122.684793
+CI,juvenile,HE,Herring,Herring,0,Padilla Bay,1975,Miller,1977,IRI,NA,NA,NA,Chinnok salmon,48.50206934,-122.5158277
+CI,juvenile,HE,Herring,Herring,0,Burrows Island,1975,Miller,1977,IRI,NA,NA,NA,Chinnok salmon,48.475627,-122.711495
+CI,juvenile,HE,Herring,Herring,0,Birch Bay,1976,Miller,1977,IRI,NA,NA,NA,Chinnok salmon,48.921438,-122.760813
+CI,juvenile,HE,Herring,Herring,0,Cherry Point,1976,Miller,1977,IRI,NA,NA,NA,Chinnok salmon,48.86109727,-122.7488791
+CI,juvenile,HE,Herring,Herring,0,Lummi Bay,1976,Miller,1977,IRI,NA,NA,NA,Chinnok salmon,48.771498,-122.6865
+CI,juvenile,HE,Herring,Herring,0,Padilla Bay,1976,Miller,1977,IRI,NA,NA,NA,Chinnok salmon,48.50206934,-122.5158277
+CI,juvenile,HE,Herring,Herring,0,Burrow Island,1976,Miller,1977,IRI,NA,NA,NA,Chinnok salmon,48.475627,-122.711495
+ROC,adult,HE,Herring,Herring,0,Deadman Bay,1974,Miller,1977,IRI,NA,NA,NA,Copper rockfish,48.512333,-123.148801
+ROC,adult,HE,Herring,Herring,0,Deadman Bay,1974,Miller,1977,IRI,NA,NA,NA,Copper rockfish,48.512333,-123.148801
+ROC,adult,HE,Herring,Herring,0,Deadman Bay,1975,Miller,1977,IRI,NA,NA,NA,Copper rockfish,48.512333,-123.148801
+SMD,adult,HE,Herring,Herring,0,Birch Bay,1976,Miller,1977,IRI,NA,NA,NA,Staghorn sculpin,48.921438,-122.760813
+SMD,adult,HE,Herring,Herring,0,Cherry Point,1976,Miller,1977,IRI,NA,NA,NA,Staghorn sculpin,48.86109727,-122.7488791
+FDF,juvenile,HE,Herring,Herring,0,False Bay,1974,Miller,1977,IRI,NA,NA,NA,English sole,48.48570898,-123.0689465
+FDF,juvenile,HE,Herring,Herring,0,Westcott Bay,1974,Miller,1977,IRI,NA,NA,NA,English sole,48.597333,-123.155572
+FDF,juvenile,HE,Herring,Herring,0,Westcott Bay,1976,Miller,1977,IRI,NA,NA,NA,English sole,48.597333,-123.155572
+FDF,juvenile,HE,Herring,Herring,0,Eagle Cove,1976,Miller,1977,IRI,NA,NA,NA,English sole,48.45972651,-123.0303554
+HE,juvenile,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Pacific herring,48.217576,-124.065467
+SMD,juvenile,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Clingfish,48.217576,-124.065467
+SMD,juvenile,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Pacific tomcod,48.217576,-124.065467
+ROC,juvenile,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Widow rockfish,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Padded sculpins,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Smoothhead sculpins,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Rosylip sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Silverspotted sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Sharpnose sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Calico sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Mosshead sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Staghorn sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Tidepool sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Saddleback sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Fluffy sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Tubenose poacher,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Tidepool sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Tidepool sculpin,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,High cockscomb,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Ribbon prickleback,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Black prickleback,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Rock prickleback,48.217576,-124.065467
+SMD,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Crescent gunnel,48.217576,-124.065467
+FDF,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Speckled sanddab,48.217576,-124.065467
+FDF,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,English sole,48.217576,-124.065467
+FDF,adult,HE,Herring,Herring,0,Strait of Juan Fuca,1978,Miller,1980,IRI,NA,NA,NA,Sand sole,48.217576,-124.065467
+FPS,adult,HE,Herring,Herring,0,Padilla Bay,1986,Simenstad,1988,per_weight,124.3,mm,stomachs,Surf smelt,48.5158333,-122.533611
+HE,adult,HE,Herring,Herring,0,Padilla Bay,1986,Simenstad,1988,per_weight,108,mm,stomachs,Pacific herring,48.5158333,-122.533611
+FPS,adult,HE,Herring,Herring,0,Padilla Bay,1986,Simenstad,1988,per_weight,99.6,mm,stomachs,Pacific sand lance,48.5158333,-122.533611
+CU,adult,HE,Herring,Herring,0,Padilla Bay,1986,Simenstad,1988,per_weight,33.6,mm,stomachs,Chum salmon,48.5158333,-122.533611
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1986,Simenstad,1988,per_weight,73,mm,stomachs,Three-spine stickleback,48.5158333,-122.533611
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Bay pipefish,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Buffalo sculpin,47.6030556,-122.373055
+FDF,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,C-O sole,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Crescent gunnel,47.6030556,-122.373055
+FDF,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,English sole,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Padded sculpin,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Penpoint gunnel,47.6030556,-122.373055
+POP,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Pile perch,47.6030556,-122.373055
+FDF,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Rock sole,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Saddleback gunnel,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Sharpnose sculpin,47.6030556,-122.373055
+POP,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Shiner perch,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Silverspotted sculpin,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Staghorn sculpin,47.6030556,-122.373055
+POP,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Striped perch,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Tomcod,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Tubesnout,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,C-O sole,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,English sole,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Rock sole,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Rex sole,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Dover sole,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,English sole,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,English sole,47.6030556,-122.373055
+FDF,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,English sole,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Rock sole,47.6030556,-122.373055
+FDF,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Rock sole,47.6030556,-122.373055
+FDF,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Rock sole,47.6030556,-122.373055
+FDF,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Speckled sanddab,47.6030556,-122.373055
+FDF,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Pacific sanddab,47.6030556,-122.373055
+FDF,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Slender sole,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Roughback sculpin,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Northern sculpin,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Sailfin sculpin,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Spotfin sculpin,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Slim sculpin,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Sturgeon poacher,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Spearnose poacher,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Bluespotted poacher,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Blacktip poacher,47.6030556,-122.373055
+POP,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Shiner perch,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Tomcod,47.6030556,-122.373055
+ROC,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Brown rockfish,47.6030556,-122.373055
+ROC,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Quillback rockfish,47.6030556,-122.373055
+RAT,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Ratfish,47.6030556,-122.373055
+RAT,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Ratfish,47.6030556,-122.373055
+RAT,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Ratfish,47.6030556,-122.373055
+RAT,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Ratfish,47.6030556,-122.373055
+SMD,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Roughback sculpin,47.6030556,-122.373055
+SMD,juvenile,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Roughback sculpin,47.6030556,-122.373055
+SMD,adult,HE,Herring,Herring,0,Elliot Bay,1979,Stober,1984,IRI,NA,NA,NA,Roughback sculpin,47.6030556,-122.373055
+FMM,juvenile,HE,Herring,Herring,0,Strait of Georgia,1997,Neville,2004,per_weight,4.9,mm,stomachs,larval pacific hake,48.8313889,-122.944722
+FMM,juvenile,HE,Herring,Herring,0,Strait of Georgia,1998,Neville,2004,per_weight,4.9,mm,stomachs,larval pacific hake,48.8313889,-122.944722
+FMM,juvenile,HE,Herring,Herring,0,Strait of Georgia,1999,Neville,2004,per_weight,4.9,mm,stomachs,larval pacific hake,48.8313889,-122.944722
+FMM,juvenile,HE,Herring,Herring,0,Strait of Georgia,2000,Neville,2004,per_weight,4.9,mm,stomachs,larval pacific hake,48.8313889,-122.944722
+HE,juvenile,HE,Herring,Herring,0,Strait of Georgia,1997,Neville,2004,per_weight,12.2,mm,stomachs,larval pacific herring,48.8313889,-122.944722
+HE,juvenile,HE,Herring,Herring,0,Strait of Georgia,1998,Neville,2004,per_weight,12.2,mm,stomachs,larval pacific herring,48.8313889,-122.944722
+HE,juvenile,HE,Herring,Herring,0,Strait of Georgia,1999,Neville,2004,per_weight,12.2,mm,stomachs,larval pacific herring,48.8313889,-122.944722
+HE,juvenile,HE,Herring,Herring,0,Strait of Georgia,2000,Neville,2004,per_weight,12.2,mm,stomachs,larval pacific herring,48.8313889,-122.944722
+FMM,juvenile,HE,Herring,Herring,0,Strait of Georgia,1997,Neville,2004,per_weight,4.5,mm,stomachs,larval walleye pollock,48.8313889,-122.944722
+FMM,juvenile,HE,Herring,Herring,0,Strait of Georgia,1998,Neville,2004,per_weight,4.5,mm,stomachs,larval walleye pollock,48.8313889,-122.944722
+FMM,juvenile,HE,Herring,Herring,0,Strait of Georgia,1999,Neville,2004,per_weight,4.5,mm,stomachs,larval walleye pollock,48.8313889,-122.944722
+FMM,juvenile,HE,Herring,Herring,0,Strait of Georgia,2000,Neville,2004,per_weight,4.5,mm,stomachs,larval walleye pollock,48.8313889,-122.944722
+HSL,adult,HE,Herring,Herring,0,San Juan Islands,2007,Bjorkland,2015,diet_proportion,140,mm,stomachs,Harbor seal,48.631327,-122.640781
+HSL,adult,HE,Herring,Herring,0,San Juan Islands,2007,Bjorkland,2015,diet_proportion,149,mm,stomachs,Harbor seal,48.631327,-122.640781
+HSL,adult,HE,Herring,Herring,0,San Juan Islands,2007,Bjorkland,2015,diet_proportion,150,mm,stomachs,Harbor seal,48.631327,-122.640781
+HSL,adult,HE,Herring,Herring,0,San Juan Islands,2007,Bjorkland,2015,diet_proportion,152,mm,stomachs,Harbor seal,48.631327,-122.640781
+HSL,adult,HE,Herring,Herring,0,San Juan Islands,2007,Bjorkland,2015,diet_proportion,142,mm,stomachs,Harbor seal,48.631327,-122.640781
+HSL,adult,HE,Herring,Herring,0,San Juan Islands,2007,Bjorkland,2015,diet_proportion,158,mm,stomachs,Harbor seal,48.631327,-122.640781
+HSL,adult,HE,Herring,Herring,0,San Juan Islands,2007,Bjorkland,2015,diet_proportion,156,mm,stomachs,Harbor seal,48.631327,-122.640781
+HSL,adult,HE,Herring,Herring,0,San Juan Islands,2007,Bjorkland,2015,diet_proportion,146,mm,stomachs,Harbor seal,48.631327,-122.640781
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,3.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,12.9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,4.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,3.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,25,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,52.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,42.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,10.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,20.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,11.3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,5.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,49.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,31.6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,15.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,5.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,25,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,24,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,18.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,3.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,12,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,19,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,6.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,15.3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,27.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,9.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,5.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,3.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,36.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,250.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,5.3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,30.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,230.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,60.85,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,230.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,18.9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,91.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,22.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,119.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,40.9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,23,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,11.6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,44.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,320.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,5.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,8.9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,2.3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2012,Thomas,2017,diet_proportion,660.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,12,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,47.9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,31.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,2.6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,2.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,24.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,7.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,25.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,18.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,18.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,1.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,63.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,6.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,16.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,20.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,49.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,28.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,39.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,19.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,28.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,20.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,25,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,18.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,2.3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,2.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,4.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,13.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,13.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,1.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,15.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,51.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,27.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,juvenile,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,6.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,2.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,22.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,63.9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,27.2,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,2.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,4.5,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,6.6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,11.6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,159.3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,133.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,57.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,8.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,86.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,470.3,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,1.7,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,14.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,21.1,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,16.8,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,47.9,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,1.6,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,4.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,219,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,0,mm,stomachs,Harbor seal,48.906586,-123.221964
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,2013,Thomas,2017,diet_proportion,4.4,mm,stomachs,Harbor seal,48.906586,-123.221964
+ROR,adult,HE,Herring,Herring,0,San Juan de Fuca Strait,2008,Hanson,2010,rel_number,5000,mm,stomachs,Orcinus orca,48.271891,-123.319468
+ROR,adult,HE,Herring,Herring,0,San Juan Islands,2008,Hanson,2010,rel_number,5000,mm,stomachs,Orcinus orca,48.271891,-123.319468
+ROR,adult,HE,Herring,Herring,0,SE Vancouver Island,1974,Ford,2010,scale_dna,5000,mm,stomachs,Orcinus Orca,49.095954,-123.604615
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,230,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,235,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,232,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,242,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,245,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,245.2,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,256,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,270,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,273.3,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,278,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,282,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,285,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,286,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,290,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,293,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,294,mm,NA,Chordata,48.5666667,-123.016665
+ROC,juvenile,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,299,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,310,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,311,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,316,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,322,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,334,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,335,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,340,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,342,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,356,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,352,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,357,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,344,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,354,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,333,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,345,mm,NA,Chordata,48.5666667,-123.016665
+ROC,adult,HE,Herring,Herring,0,San Juan Islands,2010,Turner,2015,freq_occurrence,362,mm,NA,Chordata,48.5666667,-123.016665
+SB,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Gulls,48.985151,-123.271873
+FMM,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Hake,48.985151,-123.271873
+SMD,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Misc. Demersal,48.985151,-123.271873
+CO,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Coho,48.985151,-123.271873
+CI,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Chinook,48.985151,-123.271873
+FVS,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Lingcod,48.985151,-123.271873
+PIS,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Pink_sockeye,48.985151,-123.271873
+HSL,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Seals,48.985151,-123.271873
+SP,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Shorebirds,48.985151,-123.271873
+FPS,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Small pelagics,48.985151,-123.271873
+DOG,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Dogfish,48.985151,-123.271873
+ROC,adult,HE,Herring,Herring,0,Strait of Georgia,1998,Beamish,2001,per_diet,NA,NA,NA,Toothed whales,48.985151,-123.271873
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Chum salmon,47.986368,-122.163479
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Coho salmon,47.986368,-122.163479
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Coho salmon,47.986368,-122.163479
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1997,Cordell,1998,per_weight,NA,mm,NA,Coho salmon,47.986368,-122.163479
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.5844444,-122.3602777
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.5844444,-122.3602777
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.5844444,-122.3602777
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.5844444,-122.3602777
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.5844444,-122.3602777
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.3602777
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.3602777
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.3602777
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.3602777
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.3602777
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.3602777
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.3602777
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.98884,-122.159778
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.98884,-122.159778
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.98884,-122.159778
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.98884,-122.159778
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.98884,-122.159778
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.98884,-122.159778
+CU,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chum salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Chinook salmon,47.98884,-122.159778
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Coho salmon,47.98884,-122.159778
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Coho salmon,47.98884,-122.159778
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Coho salmon,47.98884,-122.159778
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Coho salmon,47.98884,-122.159778
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Coho salmon,47.98884,-122.159778
+CO,juvenile,HE,Herring,Herring,0,Spencer Island,1998,Cordell,1999,per_weight,NA,mm,stomachs,Coho salmon,47.98884,-122.159778
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chinook salmon,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1996,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1997,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1999,Cordell,2001,per_weight,NA,mm,stomachs,Chum Salmon-ww,47.5844444,-122.360277
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,65.1,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,78.3,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,83.5,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85.2,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,98.5,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,105.5,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,109.7,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,152.5,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,65,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,76.33,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,86.47,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,79.4,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85.6,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,94.62,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,102.1,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,105.11,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,75,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,84.8,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,76,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,93.5,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,104.5,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,132.5,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85.08,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,87.59,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,91.32,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,84.25,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,94.6,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,105.5,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,106.7,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,113.25,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,121,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,136,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,44,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,63,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,82.7,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,68.38,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,81.79,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,79.57,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,93.25,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,97,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,110,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,76,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,84.38,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,82.2,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,91.5,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,95.5,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,90.25,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,103.79,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,110,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,neritic waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,124,mm,stomachs,Chinook salmon,48.95998333,-122.34765
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,69,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,96.5,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,90.9,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,85.2,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,120,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,85,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,104,mm,stomachs,Chinook salmon,48.19056667,-122.5838167
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,77,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,95.6,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,87.07,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,93.09,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,92.67,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,90.71,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,107.5,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,102,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,115.22,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,120.67,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,99.11,mm,stomachs,Chinook salmon,48.13858333,-122.6353167
+CI,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,102.69,mm,stomachs,Chinook salmon,48.13858333,-122.6353167
+CI,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,105.8,mm,stomachs,Chinook salmon,48.13858333,-122.6353167
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,332,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,328.33,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,353,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,150,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,231,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,231,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,168.2,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,146,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,186,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,163,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,193.5,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,203,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,161.67,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,135.33,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,177,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,189,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,216,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,137,mm,stomachs,Chinook salmon,48.02195,-122.2051667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,165,mm,stomachs,Chinook salmon,48.13478333,-122.3683667
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,143,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,153,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CI,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,157,mm,stomachs,Chinook salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,110.5,mm,stomachs,Coho salmon,48.02195,-122.2051667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,129,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,105.3,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,147,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,103.7,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,106.5,mm,stomachs,Coho salmon,48.19056667,-122.5838167
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,123,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,79.4,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,142.2,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,106.5,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,130,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,112.6,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,168,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,135,mm,stomachs,Coho salmon,48.02195,-122.2051667
+CO,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,111.9,mm,stomachs,Coho salmon,48.02195,-122.2051667
+CO,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,130.4,mm,stomachs,Coho salmon,48.02195,-122.2051667
+CO,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,112,mm,stomachs,Coho salmon,48.02195,-122.2051667
+CO,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,61.1,mm,stomachs,Coho salmon,48.02195,-122.2051667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,68.3,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,97.3,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,112,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,100.3,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,61,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,neritic waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,113,mm,stomachs,Coho salmon,48.95998333,-122.34765
+CO,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,136.2,mm,stomachs,Coho salmon,48.19056667,-122.5838167
+CO,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,122,mm,stomachs,Coho salmon,48.19056667,-122.5838167
+CO,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,112.5,mm,stomachs,Coho salmon,48.19056667,-122.5838167
+CO,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,110,mm,stomachs,Coho salmon,48.19056667,-122.5838167
+CO,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,196,mm,stomachs,Coho salmon,48.19056667,-122.5838167
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,118.6,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,107.5,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,158.5,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,136,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,124.3,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,132.3,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,151.5,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,126,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,157,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,193,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CO,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2003,ELISABETH J. DUFFY,2010,wet_weight,118.6,mm,stomachs,Coho salmon,48.13858333,-122.6353167
+CO,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,128,mm,stomachs,Coho salmon,48.13858333,-122.6353167
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,311.3,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,267,mm,stomachs,Coho salmon,48.13478333,-122.3683667
+CO,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,390,mm,stomachs,Coho salmon,48.19056667,-122.5838167
+CO,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,235,mm,stomachs,Coho salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,42,mm,stomachs,Chum salmon,48.02195,-122.2051667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,77,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,58.75,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,82,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,77.33,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,78.33,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,64.4,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,60.86,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,60,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,66.2,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,92,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,125,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,56.83,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,60.86,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,60,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,66.2,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,67,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,60,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,107.24,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,38,mm,stomachs,Chum salmon,48.02195,-122.2051667
+CU,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,39,mm,stomachs,Chum salmon,48.02195,-122.2051667
+CU,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,46.67,mm,stomachs,Chum salmon,48.02195,-122.2051667
+CU,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,37,mm,stomachs,Chum salmon,48.02195,-122.2051667
+CU,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,71,mm,stomachs,Chum salmon,48.02195,-122.2051667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,39,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,38.1,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,53.83,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,61,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,64,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,134,mm,stomachs,Chum salmon,48.13478333,-122.3683667
+CU,juvenile,HE,Herring,Herring,0,neritic waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,142,mm,stomachs,Chum salmon,48.95998333,-122.34765
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,41.75,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,57.57,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,45.17,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,62.83,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,61.67,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,60.4,mm,stomachs,Chum salmon,48.19056667,-122.5838167
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,38.5,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,57.9,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,50.33,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,61.41,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,46.83,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,58.2,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,67.11,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,74.1,mm,stomachs,Chum salmon,48.13746667,-122.6326333
+CU,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,64.88,mm,stomachs,Chum salmon,48.13858333,-122.6353167
+CU,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,96.5,mm,stomachs,Chum salmon,48.13858333,-122.6353167
+CU,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,108.5,mm,stomachs,Chum salmon,48.13858333,-122.6353167
+PIS,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,34.3,mm,stomachs,Pink salmon,48.02195,-122.2051667
+PIS,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,33.6,mm,stomachs,Pink salmon,48.02195,-122.2051667
+PIS,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,35.1,mm,stomachs,Pink salmon,48.02195,-122.2051667
+PIS,juvenile,HE,Herring,Herring,0,delta waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,36,mm,stomachs,Pink salmon,48.02195,-122.2051667
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,37,mm,stomachs,Pink salmon,48.13478333,-122.3683667
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,35.4,mm,stomachs,Pink salmon,48.13478333,-122.3683667
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,44.9,mm,stomachs,Pink salmon,48.13478333,-122.3683667
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,108,mm,stomachs,Pink salmon,48.13478333,-122.3683667
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,75.3,mm,stomachs,Pink salmon,48.13478333,-122.3683667
+PIS,juvenile,HE,Herring,Herring,0,neritic waters of northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,82.5,mm,stomachs,Pink salmon,48.95998333,-122.34765
+PIS,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,67.5,mm,stomachs,Pink salmon,48.19056667,-122.5838167
+PIS,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,77.3,mm,stomachs,Pink salmon,48.19056667,-122.5838167
+PIS,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,70.2,mm,stomachs,Pink salmon,48.19056667,-122.5838167
+PIS,juvenile,HE,Herring,Herring,0,delta waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,80.5,mm,stomachs,Pink salmon,48.19056667,-122.5838167
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,48.7,mm,stomachs,Pink salmon,48.13746667,-122.6326333
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,50.5,mm,stomachs,Pink salmon,48.13746667,-122.6326333
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,75.5,mm,stomachs,Pink salmon,48.13746667,-122.6326333
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,85.1,mm,stomachs,Pink salmon,48.13746667,-122.6326333
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,77.3,mm,stomachs,Pink salmon,48.13746667,-122.6326333
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,70.2,mm,stomachs,Pink salmon,48.13746667,-122.6326333
+PIS,juvenile,HE,Herring,Herring,0,nearshore waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,96,mm,stomachs,Pink salmon,48.13746667,-122.6326333
+PIS,juvenile,HE,Herring,Herring,0,neritic waters of southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,73.1,mm,stomachs,Pink salmon,48.13858333,-122.6353167
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,65.6,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,80.39,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85.16,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,97.65,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,103.39,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,126,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,81,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,64.33,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,98.29,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,114.75,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,126.5,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85.88,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,86.29,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,104.8,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,108.33,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85.97,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,93.39,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,109.81,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,128,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,123.33,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,80.11,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,74.36,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,84.22,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,100.45,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,113.5,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,44,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,84.44,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,91.27,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,108.4,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,75.4,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,81.73,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,87,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,94.55,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,108.22,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,120.67,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,92.26,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,95.63,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,113,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,103,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,104.2,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,147,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,132.33,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,94.01,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,127.67,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,122.5,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,127.67,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,33.5,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,109.56,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,108.71,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,136.5,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,143.38,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,135,mm,stomachs,Coho salmon,47.99119811,-122.2850609
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,129,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,126.8,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,119.13,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,129,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,132.53,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CO,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,148.5,mm,stomachs,Coho salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,67,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,79,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,99,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,110,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,153,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2001,ELISABETH J. DUFFY,2010,wet_weight,84,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2001,ELISABETH J. DUFFY,2010,wet_weight,85,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2001,ELISABETH J. DUFFY,2010,wet_weight,105,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2001,ELISABETH J. DUFFY,2010,wet_weight,124,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2001,ELISABETH J. DUFFY,2010,wet_weight,131,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,86,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,90,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,108,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,126,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2001,ELISABETH J. DUFFY,2010,wet_weight,127,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,82,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,74,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,88,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,103,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,northern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,132,mm,stomachs,Chinook salmon,47.99119811,-122.2850609
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2002,ELISABETH J. DUFFY,2010,wet_weight,94,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2002,ELISABETH J. DUFFY,2010,wet_weight,93,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2002,ELISABETH J. DUFFY,2010,wet_weight,97,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2002,ELISABETH J. DUFFY,2010,wet_weight,106,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,central region of puget sound,2002,ELISABETH J. DUFFY,2010,wet_weight,120,mm,stomachs,Chinook salmon,47.138067,-122.632633
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,75,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,90,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,91,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,97,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,112,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CI,juvenile,HE,Herring,Herring,0,southern Puget Sound,2002,ELISABETH J. DUFFY,2010,wet_weight,139,mm,stomachs,Chinook salmon,47.11100061,-122.6988662
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,38.55,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,39.72,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,38.23,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,40.02,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,36.97,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,40.87,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,37.22,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,41.24,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,37.13,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,41.12,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,38.75,mm,stomachs,Chum salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,38.75,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,42.02,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,38.43,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,42.13,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,39.11,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,43.37,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,43.37,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,36.17,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,42.97,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,42.97,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,38.68,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,44.01,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,37.45,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,38.67,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,39.14,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,47.52,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CI,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,47.52,mm,stomachs,Chinook salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,45.87,mm,stomachs,Chum salmon,49.107704,-123.115908
+CU,juvenile,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,45.87,mm,stomachs,Chum salmon,49.107704,-123.115908
+CI,adult,HE,Herring,Herring,0,Fraser River Estuary,1973,Dunford,1975,per_biomass,73.24,mm,stomachs,Chinook smolts,49.107704,-123.115908
+CI,adult,HE,Herring,Herring,0,Fraser River Estuary,1974,Dunford,1975,per_biomass,73.24,mm,stomachs,Chinook smolts,49.107704,-123.115908
+PIS,juvenile,HE,Herring,Herring,0,Departure Bay,1976,Godin,1981,rel_number,42.1,mm,stomachs,Pink salmon,49.1678952,-123.9250671
+PIS,juvenile,HE,Herring,Herring,0,Hammond Bay,1976,Godin,1981,rel_number,44,mm,stomachs,Pink salmon,49.1678952,-123.9250671
+SAL,adult,HE,Herring,Herring,0,Puget Sound,1979,Jauquet,2002,per_biomass,240,mm,stomachs,Coastal cutthroat,47.14159812,-122.7505313
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,1980,Meyer,1981,IRI,77.4,mm,stomachs,Chinook salmon,47.5844444,-122.3602777
+CO,juvenile,HE,Herring,Herring,0,Duwamish River,1980,Meyer,1981,IRI,122.2,mm,stomachs,Coho salmon,47.5844444,-122.3602777
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,1980,Meyer,1981,IRI,122.2,mm,stomachs,Chum salmon,47.5844444,-122.3602777
+ST,juvenile,HE,Herring,Herring,0,Duwamish River,1980,Meyer,1981,IRI,122.2,mm,stomachs,Steelhead,47.5844444,-122.3602777
+CU,juvenile,HE,Herring,Herring,0,Commencement Bay,1979,Meyer,1981,IRI,48.7,mm,stomachs,Chum salmon,47.28740877,-122.4120119
+CI,juvenile,HE,Herring,Herring,0,Commencement Bay,1979,Meyer,1981,IRI,77.5,mm,stomachs,Chinook salmon,47.28740877,-122.4120119
+CU,juvenile,HE,Herring,Herring,0,Commencement Bay,1979,Meyer,1981,IRI,48.7,mm,stomachs,Chum salmon,47.28740877,-122.4120119
+CI,juvenile,HE,Herring,Herring,0,Commencement Bay,1979,Meyer,1981,IRI,77.5,mm,stomachs,Chinook salmon,47.28740877,-122.4120119
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,2003,Morley,2012,IRI,83,mm,stomachs,Chinook salmon,47.56772952,-122.3478935
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,2003,Morley,2012,IRI,NA,NA,stomachs,Chinook salmon,47.56772952,-122.3478935
+CI,juvenile,HE,Herring,Herring,0,Duwamish River,2003,Morley,2012,IRI,NA,NA,stomachs,Chinook salmon,47.56772952,-122.3478935
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,2003,Morley,2012,IRI,NA,NA,stomachs,Chum salmon,47.56772952,-122.3478935
+CU,juvenile,HE,Herring,Herring,0,Duwamish River,2003,Morley,2012,IRI,NA,NA,stomachs,Chum salmon,47.56772952,-122.3478935
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,60,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,70,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,80,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,90,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,100,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,110,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,120,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,130,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CI,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,140,mm,stomachs,Chinook salmon,47.61078838,-122.3700235
+CU,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,30,mm,stomachs,Chum salmon,47.61078838,-122.3700235
+CU,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,40,mm,stomachs,Chum salmon,47.61078838,-122.3700235
+CU,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,50,mm,stomachs,Chum salmon,47.61078838,-122.3700235
+CU,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,60,mm,stomachs,Chum salmon,47.61078838,-122.3700235
+CU,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,70,mm,stomachs,Chum salmon,47.61078838,-122.3700235
+CU,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,80,mm,stomachs,Chum salmon,47.61078838,-122.3700235
+CU,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,90,mm,stomachs,Chum salmon,47.61078838,-122.3700235
+PIS,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,30,mm,stomachs,Pink salmon,47.61078838,-122.3700235
+PIS,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,40,mm,stomachs,Pink salmon,47.61078838,-122.3700235
+PIS,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,50,mm,stomachs,Pink salmon,47.61078838,-122.3700235
+PIS,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,60,mm,stomachs,Pink salmon,47.61078838,-122.3700235
+PIS,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,70,mm,stomachs,Pink salmon,47.61078838,-122.3700235
+PIS,juvenile,HE,Herring,Herring,0,Elliot Bay,2012,Munsch,2015,per_diet,80,mm,stomachs,Pink salmon,47.61078838,-122.3700235
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,82.7,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1980,Pearce,1982,grav_comp,48.2,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1980,Pearce,1982,grav_comp,42.3,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1980,Pearce,1982,grav_comp,45,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1980,Pearce,1982,grav_comp,56.6,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,NA,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,NA,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,NA,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,NA,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,NA,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,NA,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,80,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,80,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,80,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,80,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,80,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CU,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,80,mm,stomachs,Chum salmon,47.09787225,-122.7066636
+CI,juvenile,HE,Herring,Herring,0,Nisqually Estuary,1979,Pearce,1982,grav_comp,94.4,mm,stomachs,Chinook salmon,47.09787225,-122.7066636
+CU,adult,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,50,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,adult,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,50,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+PIS,adult,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,43,mm,stomachs,NA,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,mm,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,NA,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1975,Salo,1980,IRI,NA,NA,stomachs,Oncorrhynchus keta,47.62389906,-122.9472282
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,39.2,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+PIS,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,39.5,mm,stomachs,Pink salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,40.8,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+PIS,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,41.5,mm,stomachs,Pink salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,41.7,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+PIS,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,37.5,mm,stomachs,Pink salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,50.4,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+PIS,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,44,mm,stomachs,Pink salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,47.4,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+PIS,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,36.8,mm,stomachs,Pink salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,41.1,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+PIS,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,54.7,mm,stomachs,Pink salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,57.6,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+PIS,juvenile,HE,Herring,Herring,0,Hood Canal,1976,Schreiner,1977,per_biomass,51.1,mm,stomachs,Pink salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1977,Simenstad,1980,IRI,49.2,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1977,Simenstad,1980,IRI,56.5,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+CU,juvenile,HE,Herring,Herring,0,Hood Canal,1977,Simenstad,1980,IRI,48.2,mm,stomachs,Chum salmon,47.62482464,-122.9431083
+PIS,juvenile,HE,Herring,Herring,0,Hood Canal,1978,Simenstad,1980,IRI,50.4,mm,stomachs,Pink salmon,47.62482464,-122.9431083
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1997,Sweeting,2009,per_volume,159.2,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1998,Sweeting,2009,per_volume,172.8,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1999,Sweeting,2009,per_volume,167.6,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2000,Sweeting,2009,per_volume,199.7,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2001,Sweeting,2009,per_volume,185.7,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2002,Sweeting,2009,per_volume,170.3,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2004,Sweeting,2009,per_volume,178.9,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2005,Sweeting,2009,per_volume,190.9,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2006,Sweeting,2009,per_volume,194,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2007,Sweeting,2009,per_volume,153.6,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1997,Sweeting,2009,per_volume,243.2,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1998,Sweeting,2009,per_volume,243.2,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1999,Sweeting,2009,per_volume,229.3,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2000,Sweeting,2009,per_volume,247.6,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2001,Sweeting,2009,per_volume,254.5,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2002,Sweeting,2009,per_volume,245.6,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2004,Sweeting,2009,per_volume,251.9,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2005,Sweeting,2009,per_volume,252.2,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2006,Sweeting,2009,per_volume,258.8,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2007,Sweeting,2009,per_volume,224.1,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1997,Sweeting,2009,per_volume,167,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1998,Sweeting,2009,per_volume,180.3,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1999,Sweeting,2009,per_volume,170.5,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2000,Sweeting,2009,per_volume,193.6,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2001,Sweeting,2009,per_volume,182.8,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2002,Sweeting,2009,per_volume,164.5,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2003,Sweeting,2009,per_volume,NA,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2004,Sweeting,2009,per_volume,176.5,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2005,Sweeting,2009,per_volume,189.9,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2006,Sweeting,2009,per_volume,188.1,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2007,Sweeting,2009,per_volume,150.3,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1997,Sweeting,2009,per_volume,146.2,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1998,Sweeting,2009,per_volume,234.8,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,1999,Sweeting,2009,per_volume,224.4,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2000,Sweeting,2009,per_volume,244.2,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2001,Sweeting,2009,per_volume,248.1,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2002,Sweeting,2009,per_volume,242.4,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2003,Sweeting,2009,per_volume,229,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2004,Sweeting,2009,per_volume,251.1,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2005,Sweeting,2009,per_volume,247.7,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2006,Sweeting,2009,per_volume,257.5,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Strait of Georgia,2007,Sweeting,2009,per_volume,220,mm,stomachs,Coho salmon,49.26615442,-123.5761955
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,1997,Sweeting,2007,per_volume,208,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,1998,Sweeting,2007,per_volume,166.9,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,1999,Sweeting,2007,per_volume,196.5,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,2000,Sweeting,2007,per_volume,193.5,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,2001,Sweeting,2007,per_volume,196.2,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,2002,Sweeting,2007,per_volume,185.7,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,2004,Sweeting,2007,per_volume,179.7,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,2005,Sweeting,2007,per_volume,196.5,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CO,juvenile,HE,Herring,Herring,0,Puget Sound,2006,Sweeting,2007,per_volume,191.3,mm,stomachs,Coho salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,1997,Sweeting,2007,per_volume,130.7,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,1998,Sweeting,2007,per_volume,124.1,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,1999,Sweeting,2007,per_volume,131.4,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,2000,Sweeting,2007,per_volume,143.7,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,2001,Sweeting,2007,per_volume,127.7,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,2002,Sweeting,2007,per_volume,117.6,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,2004,Sweeting,2007,per_volume,125,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,2005,Sweeting,2007,per_volume,137.4,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+CI,juvenile,HE,Herring,Herring,0,Puget Sound,2006,Sweeting,2007,per_volume,145.1,mm,stomachs,Chinook salmon,47.72019468,-122.4569308
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,American wigeon,49.01498505,-123.0140221
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,Northern pintail,49.01498505,-123.0140221
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,Mallard,49.01498505,-123.0140221
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,Green-winged teal,49.01498505,-123.0140221
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,Branta,49.01498505,-123.0140221
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,American wigeon,49.01498505,-123.0140221
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,Northern pintail,49.01498505,-123.0140221
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,Mallard,49.01498505,-123.0140221
+SP,adult,HE,Herring,Herring,0,Boundary Bay,1990,Baldwin,1994,per_dry_mass,NA,NA,gut_contents,Branta,49.01498505,-123.0140221
+SB,adult,HE,Herring,Herring,0,Crescent Beach,2011,Huang,2015,no_prey,NA,NA,caught_prey,Great blue heron,49.05670129,-122.8892965
+SB,adult,HE,Herring,Herring,0,Protection Island,2007,Lindborg,2012,freq_occurrence,NA,NA,bolus,Glaucous-winged Gulls,48.13164966,-122.9347082
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Snake prickleback,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Snake prickleback,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Snake prickleback,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Snake prickleback,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Tadpole sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Tadpole sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Tadpole sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Crescent gunnel,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Crescent gunnel,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Crescent gunnel,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Buffalo sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Buffalo sculpin,48.444803,-122.491499
+MYC,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Plainfin midshipman,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Podothecus accipenserinus<a0>,48.444803,-122.491499
+FDF,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Pacific sand sole,48.444803,-122.491499
+POP,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Shiner perch,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Penpoint gunnel,48.444803,-122.491499
+FDF,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Rock sole,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Rock greenling,48.444803,-122.491499
+SSK,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Big skate,48.444803,-122.491499
+SMD,juvenile,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Staghorn sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Staghorn sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Staghorn sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Staghorn sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Silverspotted sculpin,48.444803,-122.491499
+ROC,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Great sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Padded sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Whitespotted sculpin,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Padilla Bay,1987,Dinnel,1990,no_prey,NA,NA,stomachs,Saddleback gunnel,48.444803,-122.491499
+SMD,adult,HE,Herring,Herring,0,Case Inlet,2012,McPeek,2015,rel_proportion,55,mm,stomachs,Pacific<a0>staghorn sculpin,47.225883,-122.836301
+SMD,adult,HE,Herring,Herring,0,Case Inlet,2012,McPeek,2015,rel_proportion,70,mm,stomachs,Pacific<a0>staghorn sculpin,47.225883,-122.836301
+SMD,adult,HE,Herring,Herring,0,Case Inlet,2012,McPeek,2015,rel_proportion,90,mm,stomachs,Pacific<a0>staghorn sculpin,47.225883,-122.836301
+SMD,adult,HE,Herring,Herring,0,Case Inlet,2012,McPeek,2015,rel_proportion,105,mm,stomachs,Pacific<a0>staghorn sculpin,47.225883,-122.836301
+SMD,adult,HE,Herring,Herring,0,Case Inlet,2012,McPeek,2015,rel_proportion,115,mm,stomachs,Pacific<a0>staghorn sculpin,47.225883,-122.836301
+SP,adult,HE,Herring,Herring,0,Penn Cove,2003,Anderson,2012,mean_percent,1000,g,gizzard,Surf scoter,48.23514981,-122.7070375
+SP,adult,HE,Herring,Herring,0,Penn Cove,2005,Anderson,2012,mean_percent,1000,g,gizzard,Surf scoter,48.23514981,-122.7070375
+SP,adult,HE,Herring,Herring,0,Padilla Bay,2005,Anderson,2012,mean_percent,1000,g,gizzard,Surf scoter,48.47147741,-122.5011358
+SP,adult,HE,Herring,Herring,0,Padilla Bay,2006,Anderson,2012,mean_percent,1000,g,gizzard,Surf scoter,48.47147741,-122.5011358
+SP,adult,HE,Herring,Herring,0,Penn Cove,2005,Anderson,2008,freq_ocurrence,1000,g,esophagus,Surf scoter,48.23514981,-122.7070375
+SP,adult,HE,Herring,Herring,0,Penn Cove,2005,Anderson,2008,freq_ocurrence,1000,g,gizzard,Surf scoter,48.23514981,-122.7070375
+SP,adult,HE,Herring,Herring,0,Padilla Bay,2005,Anderson,2008,freq_ocurrence,1000,g,esophagus,Surf scoter,48.47147741,-122.5011358
+SP,adult,HE,Herring,Herring,0,Padilla Bay,2005,Anderson,2008,freq_ocurrence,1000,g,gizzard,Surf scoter,48.47147741,-122.5011358
+SP,adult,HE,Herring,Herring,0,Birch Bay,2005,Anderson,2008,freq_ocurrence,1000,g,esophagus,Surf scoter,48.92149399,-122.7666499
+SP,adult,HE,Herring,Herring,0,Birch Bay,2005,Anderson,2008,freq_ocurrence,1000,g,gizzard,Surf scoter,48.92149399,-122.7666499
+SP,adult,HE,Herring,Herring,0,Birch Bay,2005,Anderson,2008,freq_ocurrence,1000,g,esophagus,White-winged scoter,48.92149399,-122.7666499
+SP,adult,HE,Herring,Herring,0,Birch Bay,2005,Anderson,2008,freq_ocurrence,1000,g,gizzard,White-winged scoter,48.92149399,-122.7666499
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.82918
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.829181
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.829182
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.829183
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.829184
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.829185
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.82918600000001
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.829187
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.829188
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.829189
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,Surf scoter,49.521423,-124.82919
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829191
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829192
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829193
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829194
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829195
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829196
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829197
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829198
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829199
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.8292
+SP,adult,HE,Herring,Herring,0,Baynes Sound,2002,Lewis,2007,per_weight,1250,g,fecal,White-winged scoter,49.521423,-124.829201
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043622
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043623
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043624
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043625
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043626
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043627
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043628
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043629
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.04363
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043631
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043632
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043633
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043634
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.029623,-123.043635
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.043636
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.043637
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.043638
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.043639
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.04364
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.043641
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.043642
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.043643
+SP,adult,HE,Herring,Herring,0,Boundary Bay,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.029623,-123.043644
+SP,adult,HE,Herring,Herring,0,Forbes Point,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,48.26882838,-122.6225117
+SP,adult,HE,Herring,Herring,0,Forbes Point,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,48.26882838,-122.6225117
+SP,adult,HE,Herring,Herring,0,Fraser River,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,49.202829,-123.217495
+SP,adult,HE,Herring,Herring,0,Fraser River,2009,Tschaekofske,2010,freq_occurrence,1370,g,fecal,White-winged scoter,49.202829,-123.217495
+SP,adult,HE,Herring,Herring,0,Padilla Bay,2009,Tschaekofske,2010,freq_occurrence,975,g,fecal,Surf scoter,48.464193,-122.501651
 FVS,adult,HE,herring,herring,0.07142857142857142,NA,2004,Beaudreau,2007,weight_gr,555,mm,stomachs,Lingcod,48.50641666666667,-123.19936111111112
 FVS,juvenile,HE,herring,herring,0.21428571428571427,NA,2004,Beaudreau,2007,weight_gr,733.0166666666667,mm,stomachs,Lingcod,48.50641666666667,-123.19936111111112
 FVS,adult,HE,herring,herring,0.18518518518518517,NA,2004,Beaudreau,2007,weight_gr,448.54838709677415,mm,stomachs,Lingcod,48.555055555555555,-122.99733333333333
@@ -761,9 +1685,9 @@ SMD,juvenile,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,132.47058
 SMD,juvenile,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,132,mm,stomachs,Pacific tomcod,47.8474854,-122.3486491
 POP,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,97.75,mm,stomachs,Pile perch,47.78723333,-122.4017583
 POP,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,96,mm,stomachs,Pile perch,47.6357951,-122.4164876
-MYCTOPHID,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,144,mm,stomachs,Plainfin midshipman,47.7066854,-122.3972982
-MYCTOPHID,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,164.4,mm,stomachs,Plainfin midshipman,47.63203333,-122.4218806
-MYCTOPHID,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,119,mm,stomachs,Plainfin midshipman,47.7876099,-122.3993001
+MYC,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,144,mm,stomachs,Plainfin midshipman,47.7066854,-122.3972982
+MYC,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,164.4,mm,stomachs,Plainfin midshipman,47.63203333,-122.4218806
+MYC,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,119,mm,stomachs,Plainfin midshipman,47.7876099,-122.3993001
 RAT,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,405.9230769230769,mm,stomachs,Ratfish,47.7360555,-122.3878988
 RAT,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,437.3333333333333,mm,stomachs,Ratfish,47.7099243,-122.400236
 RAT,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,402,mm,stomachs,Ratfish,47.7460815,-122.3927653
@@ -848,11 +1772,11 @@ SMD,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,295,mm,stoma
 SMD,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,290,mm,stomachs,Staghorn sculpin,47.6357585,-122.419987
 SMD,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,164.66666666666666,mm,stomachs,Sturgeon poacher,47.78723333,-122.4017583
 SMD,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,124.85714285714286,mm,stomachs,Sturgeon poacher,47.84485278,-122.3503083
-ROCKFISH,adult,HE,clupeidea,Clupeidea,0.8649939345347512,NA,2004,Reum,2013,rel_occurrence,284.7692307692308,mm,stomachs,Unid rockfish,47.7099243,-122.400236
-ROCKFISH,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,311.25,mm,stomachs,Unid rockfish,47.7167603,-122.3915527
-ROCKFISH,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,380,mm,stomachs,Unid rockfish,47.8474854,-122.3486491
-ROCKFISH,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,354.5,mm,stomachs,Unid rockfish,47.8491252,-122.3603353
-ROCKFISH,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,294.3333333333333,mm,stomachs,Unid rockfish,47.630953,-122.4270996
+ROC,adult,HE,clupeidea,Clupeidea,0.8649939345347512,NA,2004,Reum,2013,rel_occurrence,284.7692307692308,mm,stomachs,Unid rockfish,47.7099243,-122.400236
+ROC,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,311.25,mm,stomachs,Unid rockfish,47.7167603,-122.3915527
+ROC,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,380,mm,stomachs,Unid rockfish,47.8474854,-122.3486491
+ROC,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,354.5,mm,stomachs,Unid rockfish,47.8491252,-122.3603353
+ROC,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,294.3333333333333,mm,stomachs,Unid rockfish,47.630953,-122.4270996
 FMM,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,283.14285714285717,mm,stomachs,Walleye pollock,47.630953,-122.4270996
 FMM,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,429,mm,stomachs,Walleye pollock,47.7880575,-122.4076986
 FMM,adult,HE,clupeidea,Clupeidea,0,NA,2004,Reum,2013,rel_occurrence,342,mm,stomachs,Walleye pollock,47.7460815,-122.3927653
@@ -1055,9 +1979,9 @@ FDF,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,210.33333333
 SMD,juvenile,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,79.42105263157895,mm,stomachs,Pacific tomcod,47.84294722,-122.3590889
 SMD,juvenile,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,89,mm,stomachs,Pacific tomcod,47.78638611,-122.4017861
 SMD,juvenile,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,170,mm,stomachs,Pacific tomcod,47.4376953,-122.3615967
-MYCTOPHID,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,173.5,mm,stomachs,Plainfin midshipman,47.8515177,-122.344694
-MYCTOPHID,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,183.16666666666666,mm,stomachs,Plainfin midshipman,47.4374878,-122.3652344
-MYCTOPHID,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,183,mm,stomachs,Plainfin midshipman,47.5473307,-122.4064941
+MYC,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,173.5,mm,stomachs,Plainfin midshipman,47.8515177,-122.344694
+MYC,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,183.16666666666666,mm,stomachs,Plainfin midshipman,47.4374878,-122.3652344
+MYC,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,183,mm,stomachs,Plainfin midshipman,47.5473307,-122.4064941
 ROC,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,240.5,mm,stomachs,Quillback rockfish,47.8515177,-122.344694
 ROC,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,308,mm,stomachs,Quillback rockfish,47.4334188,-122.3640137
 ROC,juvenile,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,157.16666666666666,mm,stomachs,Quillback rockfish,47.8515177,-122.344694
@@ -1135,10 +2059,10 @@ FMM,juvenile,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,181.25,mm
 FMM,juvenile,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,185.66666666666666,mm,stomachs,Walleye pollock,47.8515177,-122.344694
 FMM,juvenile,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,163,mm,stomachs,Walleye pollock,47.7911667,-122.4048333
 FMM,juvenile,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,80.72727272727273,mm,stomachs,Walleye pollock,47.84294722,-122.3590889
-DVR,adult,HE,clupeidea,Clupeidea,0.6666666666666666,NA,2005,Reum,2013,rel_occurrence,350.6666666666667,mm,stomachs,Yelloweye rockfish,47.7911667,-122.4048333
-DVR,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,340,mm,stomachs,Yelloweye rockfish,47.7088745,-122.4043457
-DVR,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,328,mm,stomachs,Yelloweye rockfish,47.8456,-122.36333333
-DVR,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,310,mm,stomachs,Yelloweye rockfish,47.7916667,-122.4113363
+ROC,adult,HE,clupeidea,Clupeidea,0.6666666666666666,NA,2005,Reum,2013,rel_occurrence,350.6666666666667,mm,stomachs,Yelloweye rockfish,47.7911667,-122.4048333
+ROC,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,340,mm,stomachs,Yelloweye rockfish,47.7088745,-122.4043457
+ROC,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,328,mm,stomachs,Yelloweye rockfish,47.8456,-122.36333333
+ROC,adult,HE,clupeidea,Clupeidea,0,NA,2005,Reum,2013,rel_occurrence,310,mm,stomachs,Yelloweye rockfish,47.7916667,-122.4113363
 CI,juvenile,HE,herring,herring,0.019417475728155338,NA,2001,Ricker,2001,per_volume,1505,mm,stomachs,chinook,47.33743333,-122.4141833
 CI,juvenile,HE,herring.remains,herring.remains,0,NA,2001,Ricker,2001,per_volume,1505,mm,stomachs,chinook,47.33743333,-122.4141833
 CI,juvenile,HE,herring,herring,0.0048543689320388345,NA,2001,Ricker,2001,per_volume,1525.6,mm,stomachs,chinook,47.34781667,-122.5368

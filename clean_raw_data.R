@@ -172,3 +172,6 @@ freq.rickerusa <- lapply(index.id, calc_freq, this.data=rickerusa.data, location
   bind_rows()
 
 write_csv(freq.rickerusa, paste0(raw.data.dir.rev,"/","diet_matrix_rickerusa_2001.csv"))
+
+#
+
