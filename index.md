@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+## Historical variation of herring contribution to the diet of predators in Puget Sound
 
-You can use the [editor on GitHub](https://github.com/hmorzaria/herringdiet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Pacific herring (Clupea pallasii) are a foundational forage species in the Puget Sound, USA estuary and key prey for threatened salmon species. Puget Sound herring spawning stock biomass has been declining locally over the past 40 years. At present, there is little agreement on the primary cause of declines or the best management actions for recovery. Increases in adult herring mortality suggest predation on adults may be causing declines and/or limiting recovery. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To evaluate whether changes in predation rates are related to herring declines, we analyzed the historical contribution of herring to the diet of a suite of Puget Sound predators including harbor seals, salmonids, seabirds, and piscivorous fish. We used a diet database that included 102 published diet analyses from Puget Sound, from between 1970 and 2016, in addition to raw datasets. We applied Generalized Additive Models (GAM) to analyze the spatiotemporal variation in the contribution of herring to the diet of predators in Puget Sound as a function of year, sampling location, predator species, predator size and ecological and oceanographic variables to identify forcing factors that could facilitate or limit stock recovery of Puget Sound herring. We found strong relationships of herring prey contribution with basin, year, salmonid abundance, herring spawning stock biomass and local-scale environmental indices and Pacific Ocean basin-scale indicators. Our results suggest that temporal and spatial variation in the contribution of herring to the diet of predators is strongly driven by changes in herring abundance and spawning biomass, and less by top-down predator dynamics. We found that the contribution of herring to the diet of predators varied by sub-basin suggesting that differences in environmental conditions and anthropogenic impacts between basins could be influencing herring availability to predators.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hmorzaria/herringdiet/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
