@@ -176,10 +176,6 @@ boundary.file <- "shapefile_4071.shp"
 file.name <- "herring_map.png"
 scale.factor <- 2 #map scale
 bar.position  <- "tl" #position scale bar
-max.long <- -121.9
-min.long <- -125
-min.lat <- 46.5
-max.lat <- 50
 herring.locations <-"herring_diet_basin_data.csv"
 
   target.crs <- "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
@@ -217,23 +213,60 @@ herring.locations <-"herring_diet_basin_data.csv"
   col.pal <- c(redmonder.pal(8,"qMSOMed"),redmonder.pal(8,"qMSOPap")[8])
   
   print("generate map")
+
+  max.long <- -122
+  min.long <- -125
+  min.lat <- 47.1
+  max.lat <- 49.7
+  
   model.map <- ggplot(data=world) +
     geom_sf()+
     geom_sf(data = boundary.shape.crs, aes(fill=NAME)) +
     geom_sf(data = coord.intersect.sf, alpha = .75, colour = "black", size = 0.5) +
-    coord_sf(xlim = c(min.long, max.long), ylim = c(min.lat, max.lat), expand = TRUE)+
+    coord_sf(xlim = c(min.long, max.long), ylim = c(min.lat, max.lat), expand = TRUE) +
     scale_fill_manual(values = col.pal, name="Sub-basin") + 
-    annotation_north_arrow(location = "br", which_north = "true", 
+    annotation_north_arrow(location = "tr", which_north = "true", 
                            pad_x = unit(0.3, "in"), pad_y = unit(0.3, "in"),
                            style = north_arrow_fancy_orienteering) +
-    annotation_scale(location = "br", width_hint = 0.2,
+    annotation_scale(location = "tr", width_hint = 0.2,
                      pad_x = unit(0.1, "cm"), pad_y = unit(0.25, "cm")) +
+  #  annotate(geom = "text", x = -122.15, y = 47.6, label = "Seattle", 
+  #  fontface = "bold", color = "darkblue", size = 4) +
     xlab("Lon")+
     ylab("Lat")+
     theme_minimal()
   
+  #inset map
+  #https://geocompr.github.io/post/2019/ggplot2-inset-maps/
   
-  save_plot(file.name, model.map, ncol=1, base_width = 7, base_height = 4)
+  data("us_states", package = "spData")
+  
+  #extract bounding box
+  
+  point.bb  <- st_as_sfc(st_bbox(coord.intersect.sf))
+  
+  max.long <- -74
+  min.long <- -126
+  min.lat <- 28
+  max.lat <- 52
+
+  inset.map <- ggplot(data=world) +
+    geom_sf() +
+    geom_sf(data = point.bb, fill = NA, color = "darkred", size = 1) +
+    coord_sf(xlim = c(min.long, max.long), ylim = c(min.lat, max.lat), expand = TRUE) +
+    annotate(geom = "text", x = -100, y = 51, label = "Canada", 
+    fontface = "plain", color = "darkblue", size = 5) +
+    annotate(geom = "text", x = -100, y = 45, label = "USA", 
+    fontface = "plain", color = "darkblue", size = 5) +
+    theme_no_axes()
+  
+  model.inset.map <- ggdraw() +
+  draw_plot(model.map) +
+  draw_plot(inset.map, x = 0.1, y = 0.02, width = 0.3, height = 0.3)
+
+  #save_plot(file.name, model.inset.map, ncol=1, base_width = 7, base_height = 4)
+
+  ggsave(file.name, model.inset.map, device="png",width=10,height=10, dpi=400)
 
 #make_map(boundary.file, file.name, scale.factor, bar.position, max.long, min.long, min.lat, max.lat, herring.locations)
 

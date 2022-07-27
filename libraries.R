@@ -12,7 +12,7 @@
               "stringr","sf","raster","Redmonder","lubridate","ggs","grid",
               "gridExtra","mgcv","fitdistrplus", "geoR", "mgcViz","itsadug","rnaturalearth",
               "rnaturalearthdata","cowplot","lares","car","broom","gratia","formula.tools","vegan", 
-              "factoextra","ggfortify","corrplot","paran", "patchwork","ggforce","AICcmodavg")
+              "factoextra","ggfortify","corrplot","paran", "patchwork","ggforce","AICcmodavg", "spData")
 
 #devtools::install_github("vr-vr/itsadug", build_vignettes=TRUE)
 #library(itsadug)
