@@ -22,7 +22,7 @@ gam_table <- function(this.no.fit, list.fits){
   
   
   gam_tibble <- tibble(formula=model.formula, model_no=this.no.fit, REML=round(REML,1),R2=round(R2,3),df=round(df,1),
-                       AIC=AIC_val,deviance_explained=round(deviance,1))
+                       AIC=AIC_val,deviance_explained=round(deviance,1)) 
   
   return(gam_tibble)
 }
